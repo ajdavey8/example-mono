@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "file-processor"
+spec:
+  type: service
+  owner: ironhide
+  lifecycle: production
+  system: verification
+  providesApis: [ "api-facade"]
