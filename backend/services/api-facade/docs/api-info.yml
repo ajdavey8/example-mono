@@ -7,4 +7,4 @@ spec:
   lifecycle: production
   owner: ironhide
   definition:
-    $openapi: ./openapi.yaml
+    $openapi: ./openapi.yml
