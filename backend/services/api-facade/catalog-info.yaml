@@ -10,7 +10,4 @@ spec:
   system: kyc
   lifecycle: experimental
   providesApis:
-    - users
-    - companies
-  consumesApis: 
-    - request-upload
+    - apis
