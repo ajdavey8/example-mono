@@ -2,6 +2,7 @@ site_name: API Facade
 
 nav:
   - Home: index.md
+  - Certificates: auth/certificates.md
 
 plugins:
   - techdocs-core
