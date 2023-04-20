@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: ironhide
+  definition:
+    $openapi: ./openapi.yaml
