@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1beta1
+kind: Component
+metadata:
+  name: "party"
+  description: 
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
