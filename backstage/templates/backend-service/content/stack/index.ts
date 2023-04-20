@@ -4,7 +4,7 @@ import { ApiStack } from "./api";
 export default function main(app: App) {
   // 👇 Set default Lambda props, regardless of stack.
   app.setDefaultFunctionProps({
-    runtime: "nodejs16.x",
+    runtime: "nodejs18.x",
     architecture: "arm_64",
     environment: {
       STAGE: app.stage,

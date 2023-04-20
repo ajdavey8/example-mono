@@ -6,5 +6,5 @@ spec:
   type: service
   owner: ironhide
   lifecycle: production
-  system: verification
+  system: kyc
   providesApis: [ "api-facade"]
