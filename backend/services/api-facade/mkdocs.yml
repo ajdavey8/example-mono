@@ -1,0 +1,7 @@
+site_name: API Facade
+
+nav:
+  - Home: index.md
+
+plugins:
+  - techdocs-core

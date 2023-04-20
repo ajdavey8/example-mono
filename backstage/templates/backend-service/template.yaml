@@ -4,7 +4,7 @@ kind: Template
 metadata:
   name: backend-nodejs-template
   title: Backend Node.js Service Template
-  description: A simple backend service setup
+  description: A simple backend service setup with CDK and SST
 spec:
   owner: user:guest
   type: service
@@ -72,6 +72,3 @@ spec:
     links:
       - title: Repository
         url: ${{ steps['publish'].output.remoteUrl }}
-      - title: Open in catalog
-        icon: catalog
-        entityRef: ${{ steps['register'].output.entityRef }}
