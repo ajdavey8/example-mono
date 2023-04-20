@@ -3,6 +3,8 @@ kind: Component
 metadata:
   name: ${{ values.name | dump }}
   description: ${{ values.description }}
+  annotations:
+    backstage.io/techdocs-ref: ./backend/services/${{ values.name }}
 spec:
   type: service
   owner: user:guest
