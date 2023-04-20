@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: "api-facade"
   annotations:
-    backstage.io/techdocs-ref: ./backend/services/api-facade
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: service
   owner: ironhide
