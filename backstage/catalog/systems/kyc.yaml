@@ -4,3 +4,4 @@ metadata:
   name: kyc
 spec:
   owner: ironhide
+  domain: verification
