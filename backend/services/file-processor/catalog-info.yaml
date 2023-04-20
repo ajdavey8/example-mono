@@ -7,4 +7,5 @@ spec:
   owner: ironhide
   lifecycle: production
   system: kyc
-  providesApis: [ "api-facade"]
+  providesApis: 
+    - request-upload

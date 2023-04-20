@@ -7,4 +7,8 @@ spec:
   owner: ironhide
   system: kyc
   lifecycle: experimental
-  consumesApis: ["file-processor"]
+  providesApis:
+    - users
+    - companies
+  consumesApis: 
+    - request-upload
