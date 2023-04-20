@@ -19,7 +19,7 @@ export default function main(app: App) {
 
   // 👇 Add stacks to the app.
   await app.stack(ApiStack, {
-    stackName: `{{ values.name }}--${app.stage}`,
+    stackName: `${{ values.name }}--${app.stage}`,
     tags: stackTags,
   });
 
