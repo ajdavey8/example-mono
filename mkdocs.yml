@@ -1,0 +1,13 @@
+site_name: Optimus
+
+nav:
+  - Intro: 'index.md'
+  - Guidelines: 
+    - code-review: 'CODE_REVIEW.md'
+    - prod-signoff: 'PROD_SIGNOFF.md'
+  - Services:
+    - api-facade: '!include ./backend/services/api-facade/mkdocs.yml'
+    - file-processor: '!include ./backend/services/file-processor/mkdocs.yml'
+
+plugins:
+  - techdoc-core
