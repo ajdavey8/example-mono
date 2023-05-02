@@ -49,4 +49,3 @@ jobs:
         if: ${{ github.ref == 'refs/heads/main' }}
         run: |
           yarn nx release @andrew-org-test/backend-common
-327311
