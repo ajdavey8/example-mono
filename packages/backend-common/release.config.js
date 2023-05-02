@@ -5,6 +5,7 @@ module.exports = {
   extends: 'release.config.base.js',
   pkgRoot: `dist/${srcRoot}`,
   tagFormat: name + '-v${version}',
+  branch: 'main',
   commitPaths: [`${srcRoot}/*`],
   plugins: [
     '@semantic-release/commit-analyzer',
