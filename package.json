@@ -1,0 +1,8 @@
+{
+  "name": "example-mono",
+  "devDependencies": {
+    "nx": "^16.0.2",
+    "semantic-release-npm-github-publish": "^1.5.4",
+    "semantic-release-plus": "^20.0.0"
+  }
+}

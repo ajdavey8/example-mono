@@ -1,0 +1,37 @@
+{
+  "name": "@andrew-org-test/backend-common",
+  "author": "Andrew",
+  "private": true,
+  "version": "0.0.0-semantic-release",
+  "description": "Library for common backend logic, types, etc, used by all of the micro-services",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrew-org-test/example-mono.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@andrew-org-test"
+  },
+  "scripts": {
+    "build": "tsc --build",
+    "commit": "git cz",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "typecheck": "tsc --noEmit",
+    "release": "npx semantic-release-plus --extends ./packages/backend-common/release.config.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-sts": "3.321.1",
+    "aws-cdk-lib": "2.77.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.16.1",
+    "commitizen": "^4.3.0",
+    "eslint": "8.39.0",
+    "eslint-config-prettier": "8.8.0",
+    "prettier": "2.8.8",
+    "typescript": "5.0.4"
+  }
+}
