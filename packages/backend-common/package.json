@@ -20,7 +20,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "typecheck": "tsc --noEmit",
-    "release": "npx semantic-release-plus --extends ./packages/backend-common/release.config.js"
+    "release": "npx semantic-release-plus --extends=./packages/backend-common/release.config.js"
   },
   "dependencies": {
     "@aws-sdk/client-sts": "3.321.1",
