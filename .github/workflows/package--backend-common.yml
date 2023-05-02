@@ -43,9 +43,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: |
           yarn install
-          yarn nx lint @andrew-org-test/backend-common
-          yarn nx build @andrew-org-test/backend-common
+          yarn nx lint backend-common
+          yarn nx build backend-common
       - name: Publish
         if: ${{ github.ref == 'refs/heads/main' }}
         run: |
-          yarn nx release @andrew-org-test/backend-common
+          yarn nx release backend-common
