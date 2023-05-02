@@ -1,5 +1,6 @@
 {
   "name": "example-mono",
+  "private": true,
   "devDependencies": {
     "@nrwl/cli": "^15.9.3",
     "nx": "^16.0.2",
