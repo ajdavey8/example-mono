@@ -1,0 +1,11 @@
+{
+    "build": {
+      "executor": "@nx/js:tsc",
+      "options": {
+        "outputPath": "dist/",
+        "main": "src/index.ts",
+        "tsConfig": "tsconfig.json",
+        "assets": ["/*.md"]
+      }
+    }
+  }
