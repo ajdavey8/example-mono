@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/andrew-org-test/example-mono/compare/backend-common-v1.0.0...backend-common-v1.0.1) (2023-05-03)
+
+
+### Bug Fixes
+
+* remove private prop ([28d8fb0](https://github.com/andrew-org-test/example-mono/commit/28d8fb051318cca3a93290eb7b0271a041d81ba0))
+
 # 1.0.0 (2023-05-03)
 
 
