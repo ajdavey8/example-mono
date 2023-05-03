@@ -12,7 +12,7 @@ on:
     branches: '*'
 
 jobs:
-  quality:
+  package:
     runs-on: ubuntu-latest
     defaults:
       run:
