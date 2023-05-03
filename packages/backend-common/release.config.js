@@ -16,12 +16,7 @@ module.exports = {
         changelogFile: `${srcRoot}/CHANGELOG.md`,
       },
     ],
-    [
-      '@semantic-release/npm', 
-      {
-        "pkgRoot": `./${srcRoot}`
-      }
-    ],
+    '@semantic-release/npm', 
     [
       '@semantic-release/git',
       {

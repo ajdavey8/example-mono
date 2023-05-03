@@ -1,0 +1,13 @@
+{ 
+    "targets": {
+        "build": {
+        "executor": "@nx/js:tsc",
+        "options": {
+            "outputPath": "dist/packages/backend-common",
+            "main": "packages/backend-common/src/index.ts",
+            "tsConfig": "packages/backend-common/tsconfig.lib.json",
+            "assets": ["/*.md"]
+        }
+        }
+    }
+}

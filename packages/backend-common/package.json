@@ -25,7 +25,6 @@
     }
     },
   "scripts": {
-    "build": "tsc",
     "commit": "cz",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
