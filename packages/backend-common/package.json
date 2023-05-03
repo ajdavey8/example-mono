@@ -12,7 +12,8 @@
     "url": "https://github.com/andrew-org-test/example-mono.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@andrew-org-test"
+    "registry": "https://npm.pkg.github.com/@andrew-org-test",
+    "pkgRoot": "dist/packages/backend-common"
   },
   "release": {
     "branches": [

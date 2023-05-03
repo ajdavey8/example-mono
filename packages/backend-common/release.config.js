@@ -3,7 +3,6 @@ const srcRoot = `packages/${name}`;
 
 module.exports = {
   extends: 'release.config.base.js',
-  pkgRoot: `dist/${srcRoot}`,
   tagFormat: name + '-v${version}',
   branch: 'main',
   commitPaths: [`${srcRoot}/*`],
@@ -16,7 +15,7 @@ module.exports = {
         changelogFile: `${srcRoot}/CHANGELOG.md`,
       },
     ],
-    '@semantic-release/npm', 
+      '@semantic-release/npm', 
     [
       '@semantic-release/git',
       {
