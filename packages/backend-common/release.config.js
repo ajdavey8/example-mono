@@ -5,7 +5,7 @@ module.exports = {
   extends: 'release.config.base.js',
   tagFormat: name + '-v${version}',
   branch: 'main',
-  commitPaths: [`${srcRoot}/*`],
+  commitPaths: ['*'],
   plugins: [
     '@semantic-release/commit-analyzer',
     '@semantic-release/release-notes-generator',
