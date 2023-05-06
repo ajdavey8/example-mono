@@ -3,12 +3,13 @@
   "author": "Andrew",
   "version": "1.0.13",
   "description": "Library for common backend logic, types, etc, used by all of the micro-services",
-  "main": "src/index.js",
-  "types": "src/index.d.ts",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
   "type": "commonjs",
   "repository": {
     "type": "git",
-    "url": "https://github.com/andrew-org-test/example-mono.git"
+    "url": "https://github.com/andrew-org-test/example-mono.git",
+    "directory": "packages/backend-common"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@andrew-org-test",
