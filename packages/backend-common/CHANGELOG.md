@@ -1,3 +1,10 @@
+## [1.0.11](https://github.com/andrew-org-test/example-mono/compare/backend-common-v1.0.10...backend-common-v1.0.11) (2023-05-06)
+
+
+### Bug Fixes
+
+* semantic release git update ([abcfdac](https://github.com/andrew-org-test/example-mono/commit/abcfdac34615c655d6dfc26f93439e6ae2462278))
+
 ## [1.0.1](https://github.com/andrew-org-test/example-mono/compare/backend-common-v1.0.0...backend-common-v1.0.1) (2023-05-03)
 
 
