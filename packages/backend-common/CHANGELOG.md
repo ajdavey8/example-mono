@@ -1,3 +1,10 @@
+## [1.0.14](https://github.com/andrew-org-test/example-mono/compare/backend-common-v1.0.13...backend-common-v1.0.14) (2023-05-06)
+
+
+### Bug Fixes
+
+* main path ([22c3491](https://github.com/andrew-org-test/example-mono/commit/22c3491902c87c1f379f0d5b082dc97c2da01ada))
+
 ## [1.0.13](https://github.com/andrew-org-test/example-mono/compare/backend-common-v1.0.12...backend-common-v1.0.13) (2023-05-06)
 
 
