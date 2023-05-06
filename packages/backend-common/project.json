@@ -3,9 +3,10 @@
         "build": {
         "executor": "@nx/js:tsc",
         "options": {
-            "outputPath": "dist/packages/backend-common",
+            "outputPath": "dist/",
             "main": "packages/backend-common/src/index.ts",
             "tsConfig": "packages/backend-common/tsconfig.lib.json",
+            "rootDir":".",
             "assets": ["/*.md"]
         }
         }
