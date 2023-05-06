@@ -41,8 +41,8 @@ jobs:
           # Defaults to the user or organization that owns the workflow file
           scope: '@andrew-org-test'
         env: 
-          NODE_AUTH_TOKEN: ${{ steps.generate_token.outputs.token }}
-          GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: |
           yarn install
           yarn nx lint backend-common
