@@ -22,9 +22,16 @@ jobs:
       packages: write
       actions: read
     steps:
+      - name: Generate token
+        id: generate_token
+        uses: tibdex/github-app-token@v1
+        with:
+          app_id: ${{ secrets.MY_SEMANTIC_RELEASE_BOT_APP_ID }}
+          private_key: ${{ secrets.MY_SEMANTIC_RELEASE_BOT_PRIVATE_KEY }}
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
+          token: ${{ steps.generate_token.outputs.token }}
       - name: Lint and Build
         uses: actions/setup-node@v3
         with:
