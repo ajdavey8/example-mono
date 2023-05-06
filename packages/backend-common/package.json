@@ -16,7 +16,7 @@
     "pkgRoot": "packages/backend-common/"
   },
   "files": [
-    "dist/**"
+    "dist/src/**"
   ],
   "release": {
     "branches": [
