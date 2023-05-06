@@ -5,13 +5,14 @@ module.exports = {
   extends: 'release.config.base.js',
   tagFormat: name + '-v${version}',
   branch: 'main',
+  commitPaths: [`${srcRoot}/*`],
   plugins: [
     '@semantic-release/commit-analyzer',
     '@semantic-release/release-notes-generator',
     [
       '@semantic-release/changelog',
       {
-        changelogFile: `./CHANGELOG.md`,
+        changelogFile: `${srcRoot}/CHANGELOG.md`,
       },
     ],
       '@semantic-release/npm', 
