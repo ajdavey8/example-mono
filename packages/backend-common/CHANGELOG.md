@@ -1,3 +1,10 @@
+## [1.0.13](https://github.com/andrew-org-test/example-mono/compare/backend-common-v1.0.12...backend-common-v1.0.13) (2023-05-06)
+
+
+### Bug Fixes
+
+* try new build setup with files ([83ca662](https://github.com/andrew-org-test/example-mono/commit/83ca662163afe6df5190dfcfb6b0b0a9ce61fecb))
+
 ## [1.0.11](https://github.com/andrew-org-test/example-mono/compare/backend-common-v1.0.10...backend-common-v1.0.11) (2023-05-06)
 
 
