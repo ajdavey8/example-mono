@@ -1,3 +1,10 @@
+## [1.0.15](https://github.com/andrew-org-test/example-mono/compare/backend-common-v1.0.14...backend-common-v1.0.15) (2023-05-06)
+
+
+### Bug Fixes
+
+* remove extra package.json ([69d1648](https://github.com/andrew-org-test/example-mono/commit/69d1648bd540f7f3ece7cf771aa9a0815c57ba82))
+
 ## [1.0.14](https://github.com/andrew-org-test/example-mono/compare/backend-common-v1.0.13...backend-common-v1.0.14) (2023-05-06)
 
 
