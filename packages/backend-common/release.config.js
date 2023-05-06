@@ -1,9 +1,10 @@
 const name = 'backend-common';
-const srcRoot = `dist/packages/${name}`;
+const srcRoot = `packages/${name}`;
 
 module.exports = {
   extends: 'release.config.base.js',
   tagFormat: name + '-v${version}',
+  pkgRoot: `dist/${srcRoot}`,
   branch: 'main',
   plugins: [
     '@semantic-release/commit-analyzer',
@@ -11,7 +12,7 @@ module.exports = {
     [
       '@semantic-release/changelog',
       {
-        changelogFile: `./CHANGELOG.md`,
+        changelogFile: `${srcRoot}/CHANGELOG.md`,
       },
     ],
       '@semantic-release/npm', 

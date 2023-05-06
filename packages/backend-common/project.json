@@ -1,4 +1,5 @@
 { 
+    "sourceRoot": "packages/backend-common/src",
     "targets": {
         "build": {
         "executor": "@nx/js:tsc",
