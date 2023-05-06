@@ -3,8 +3,8 @@
   "author": "Andrew",
   "version": "0.0.0-semantic-release",
   "description": "Library for common backend logic, types, etc, used by all of the micro-services test",
-  "main": "src/index.js",
-  "types": "src/index.d.ts",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
   "type": "commonjs",
   "repository": {
     "type": "git",
