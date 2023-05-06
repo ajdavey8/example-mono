@@ -45,9 +45,9 @@ jobs:
           GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
       - run: |
           yarn install
-          yarn nx affected -t lint
-          yarn nx affected -t build
+          yarn nx lint backend-common
+          yarn nx build backend-common
       - name: Publish
         if: ${{ github.ref == 'refs/heads/main' }}
         run: |
-          yarn nx affected -t release
+          yarn nx release backend-common
