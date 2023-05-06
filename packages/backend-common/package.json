@@ -12,7 +12,7 @@
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@andrew-org-test",
-    "pkgRoot": "dist/packages/backend-common"
+    "pkgRoot": "packages/backend-common/"
   },
   "release": {
     "branches": [
