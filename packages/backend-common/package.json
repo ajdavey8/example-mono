@@ -3,8 +3,8 @@
   "author": "Andrew",
   "version": "1.0.11",
   "description": "Library for common backend logic, types, etc, used by all of the micro-services test",
-  "main": "dist/src/index.js",
-  "types": "dist/src/index.d.ts",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
   "type": "commonjs",
   "repository": {
     "type": "git",
@@ -12,7 +12,7 @@
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@andrew-org-test",
-    "pkgRoot": "packages/backend-common/"
+    "pkgRoot": "packages/backend-common/dist/"
   },
   "release": {
     "branches": [
