@@ -48,8 +48,9 @@ jobs:
       - run: |
           yarn install
           yarn nx affected -t lint
-          yarn nx build backend-common
+          yarn nx affected -t test
+          yarn nx affected -t build
       - name: Publish
         if: ${{ github.ref == 'refs/heads/main' }}
         run: |
-          yarn nx release backend-common
+          yarn nx affected -t release 
