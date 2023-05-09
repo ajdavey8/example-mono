@@ -1,7 +1,6 @@
 const name = 'backend-common';
 
 module.exports = {
-  extends: 'release.config.base.js',
   tagFormat: name + '-v${version}',
   branch: 'main',
   commitPaths: ['*'],
