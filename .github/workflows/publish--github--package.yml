@@ -32,7 +32,9 @@ jobs:
         with:
           fetch-depth: 0
           token: ${{ steps.generate_token.outputs.token }}
-      - name: Lint and Build
+      - name: Derive appropriate SHAs for base and head for `nx affected` commands
+        uses: nrwl/nx-set-shas@v3
+      - name: Lint, Test and Build
         uses: actions/setup-node@v3
         with:
           node-version: '18.x'
@@ -45,7 +47,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: |
           yarn install
-          yarn nx lint backend-common
+          yarn nx affected -t lint
           yarn nx build backend-common
       - name: Publish
         if: ${{ github.ref == 'refs/heads/main' }}

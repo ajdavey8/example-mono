@@ -1,5 +1,4 @@
 const name = 'backend-common';
-const srcRoot = `packages/${name}`;
 
 module.exports = {
   extends: 'release.config.base.js',
