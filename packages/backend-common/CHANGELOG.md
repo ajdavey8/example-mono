@@ -1,3 +1,10 @@
+## [1.0.16](https://github.com/andrew-org-test/example-mono/compare/backend-common-v1.0.15...backend-common-v1.0.16) (2023-05-09)
+
+
+### Bug Fixes
+
+* add jest test script ([2016c6c](https://github.com/andrew-org-test/example-mono/commit/2016c6cfefcd51a09dcfe30edcdf65e5be06b403))
+
 ## [1.0.15](https://github.com/andrew-org-test/example-mono/compare/backend-common-v1.0.14...backend-common-v1.0.15) (2023-05-06)
 
 
