@@ -1,3 +1,11 @@
+## [1.0.17](https://github.com/andrew-org-test/example-mono/compare/backend-common-v1.0.16...backend-common-v1.0.17) (2023-05-09)
+
+
+### Bug Fixes
+
+* license and packages ([5b558cb](https://github.com/andrew-org-test/example-mono/commit/5b558cb19ab5d3a4e2366239a22b9793fd2e8121))
+* remove not needed package? ([e1115d0](https://github.com/andrew-org-test/example-mono/commit/e1115d04f8962aee0c427cf72d3774dc8cc17644))
+
 ## [1.0.16](https://github.com/andrew-org-test/example-mono/compare/backend-common-v1.0.15...backend-common-v1.0.16) (2023-05-09)
 
 
