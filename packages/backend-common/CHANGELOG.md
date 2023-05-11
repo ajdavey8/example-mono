@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/andrew-org-test/example-mono/compare/backend-common-v1.0.17...backend-common-v1.1.0) (2023-05-11)
+
+
+### Features
+
+* add new function to backend package ([c9ee205](https://github.com/andrew-org-test/example-mono/commit/c9ee2055e3c166cc59c3f90c25fa17e7c7d77813))
+
 ## [1.0.17](https://github.com/andrew-org-test/example-mono/compare/backend-common-v1.0.16...backend-common-v1.0.17) (2023-05-09)
 
 
