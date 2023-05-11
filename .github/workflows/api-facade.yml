@@ -24,5 +24,6 @@ jobs:
           node-version: '18.x'
           cache: 'yarn'
         env: 
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: |
           yarn install

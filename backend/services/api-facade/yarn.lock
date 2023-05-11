@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@andrew-org-test/backend-common@1.0.15":
-  version "1.0.15"
-  resolved "https://npm.pkg.github.com/download/@andrew-org-test/backend-common/1.0.15/40d8391a1635053c6b5793ccf59e913807ac0edb#40d8391a1635053c6b5793ccf59e913807ac0edb"
-  integrity sha512-a2DNNLFIKoBg/6R6nNVisrCUMYPJbkN2UKXkBrLz3FSXYJ/uZQZpFP7h6TJECk/r8G3srM8pUpItGjEstvx9yw==
+"@andrew-org-test/backend-common@1.1.0":
+  version "1.1.0"
+  resolved "https://npm.pkg.github.com/download/@andrew-org-test/backend-common/1.1.0/de149926eed3705bb0ca172dcabbe34009a49b47#de149926eed3705bb0ca172dcabbe34009a49b47"
+  integrity sha512-PKUyc0UbqVOoGONuggboE9wc4SlWTSho3bINj8EE591UwR7/jgn9nraTbd99Xdylm6gE2SMonKIBEUwcuaxT9A==
   dependencies:
     "@aws-sdk/client-sts" "3.321.1"
     aws-cdk-lib "2.77.0"
