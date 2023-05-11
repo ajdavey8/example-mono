@@ -4,11 +4,13 @@ on:
   push:
     paths:
       - "backend/services/api-facade/**"
+      - ".github/workflows/api-facade.yml"
     branches:
       - main
   pull_request:
     paths:
       - "backend/services/api-facade/**"
+      - ".github/workflows/api-facade.yml"
     branches: '*'
 
 jobs:
@@ -25,5 +27,8 @@ jobs:
           cache: 'yarn'
         env: 
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - run: |
+      - name: Install dependencies
+        run: |
           yarn install
+        env: 
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - "packages/**"
+      - ".github/workflows/publish--github--package.yml"
     branches:
       - main
   pull_request:
@@ -35,7 +36,7 @@ jobs:
           token: ${{ steps.generate_token.outputs.token }}
       - name: Derive appropriate SHAs for base and head for `nx affected` commands
         uses: nrwl/nx-set-shas@v3
-      - name: Lint, Test and Build
+      - name: Setup Node
         uses: actions/setup-node@v3
         with:
           node-version: '18.x'
@@ -46,8 +47,13 @@ jobs:
         env: 
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - run: |
+      - name: Install dependencies
+        run: |
           yarn install
+        env: 
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Lint, Test and Build
+        run: |
           yarn nx affected -t lint
           yarn nx affected -t test
           yarn nx affected -t build
