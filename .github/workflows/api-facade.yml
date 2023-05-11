@@ -1,0 +1,28 @@
+name: "Backend::Services::ApiFacade"
+
+on:
+  push:
+    paths:
+      - "backend/services/api-facade/**"
+    branches:
+      - main
+  pull_request:
+    paths:
+      - "backend/services/api-facade/**"
+    branches: '*'
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Lint and Build
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18.x'
+          cache: 'yarn'
+        env: 
+      - run: |
+          yarn install
