@@ -9,6 +9,7 @@ on:
   pull_request:
     paths:
       - "packages/**"
+      - ".github/workflows/publish--github--package.yml"
     branches: '*'
 
 jobs:
