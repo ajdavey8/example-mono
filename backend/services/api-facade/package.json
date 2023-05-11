@@ -1,5 +1,11 @@
 {
   "name": "test",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "@andrew-org-test/backend-common": "1.0.17"
+  },
+  "devDependencies": {
+    "@tsconfig/node18": "^2.0.0",
+    "typescript": "^5.0.4"
+  }
 }
