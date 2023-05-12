@@ -54,10 +54,10 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Lint, Test and Build
         run: |
-          yarn nx affected -t lint
-          yarn nx affected -t test
-          yarn nx affected -t build
+          yarn nx affected:lint
+          yarn nx affected:test
+          yarn nx affected:build
       - name: Publish
         if: ${{ github.ref == 'refs/heads/main' }}
         run: |
-          yarn nx affected -t release 
+          yarn nx affected:release 
