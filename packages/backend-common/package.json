@@ -35,7 +35,7 @@
     "lint:fix": "eslint . --fix",
     "test": "jest --passWithNoTests",
     "typecheck": "tsc --noEmit",
-    "release": "npx semantic-release-plus --extends=./release.config.js"
+    "releasePackage": "npx semantic-release-plus --extends=./release.config.js"
   },
   "dependencies": {
     "@aws-sdk/client-sts": "3.321.1",

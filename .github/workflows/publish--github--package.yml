@@ -60,4 +60,4 @@ jobs:
       - name: Publish
         if: ${{ github.ref == 'refs/heads/main' }}
         run: |
-          yarn nx affected:release 
+          yarn nx affected:releasePackage 
