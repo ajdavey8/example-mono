@@ -1,3 +1,11 @@
+## [1.2.1](https://github.com/andrew-org-test/example-mono/compare/backend-common-v1.2.0...backend-common-v1.2.1) (2023-05-16)
+
+
+### Bug Fixes
+
+* reset ([fd6bb1b](https://github.com/andrew-org-test/example-mono/commit/fd6bb1bb10e7d13d85b8b9b81bdd9f847eaf8e51))
+* workspace name ([5610f84](https://github.com/andrew-org-test/example-mono/commit/5610f843b2878a2b5a549832d19fd39e1d41147a))
+
 # [1.1.0](https://github.com/andrew-org-test/example-mono/compare/backend-common-v1.0.17...backend-common-v1.1.0) (2023-05-11)
 
 
