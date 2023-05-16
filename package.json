@@ -3,11 +3,11 @@
   "version": "0.0.0",
   "private": true,
   "devDependencies": {
-    "@nrwl/cli": "^15.9.3",
-    "@nx/js": "^16.0.3",
-    "@semantic-release/changelog": "^6.0.3",
-    "@semantic-release/git": "^10.0.1",
-    "nx": "^16.0.2"
+    "@nrwl/cli": "15.9.3",
+    "@nx/js": "16.0.3",
+    "@semantic-release/changelog": "6.0.3",
+    "@semantic-release/git": "10.0.1",
+    "nx": "16.0.2"
   },
   "workspaces": [
     "packages/*",
