@@ -2,8 +2,7 @@
   "name": "test",
   "private": true,
   "dependencies": {
-    "@andrew-org-test/backend-common": "1.1.0",
-    "@shieldpay/common": "workspace:*"
+    "@andrew-org-test/backend-common": "1.2.2"
   },
   "devDependencies": {
     "@tsconfig/node18": "^2.0.0",
