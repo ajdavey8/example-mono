@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/andrew-org-test/example-mono/compare/backend-common-v1.2.1...backend-common-v1.2.2) (2023-05-16)
+
+
+### Bug Fixes
+
+* change registery url ([0d8520d](https://github.com/andrew-org-test/example-mono/commit/0d8520d5fc6c8f24773d0c400d886c0519c21cd9))
+
 ## [1.2.1](https://github.com/andrew-org-test/example-mono/compare/backend-common-v1.2.0...backend-common-v1.2.1) (2023-05-16)
 
 
