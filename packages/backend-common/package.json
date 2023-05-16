@@ -1,5 +1,5 @@
 {
-  "name": "backend-common",
+  "name": "@andrew-org-test/backend-common",
   "author": "Andrew",
   "version": "1.2.1",
   "license": "UNLICENSED",
@@ -13,7 +13,7 @@
     "directory": "packages/backend-common"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@andrew-org-test",
+    "registry": "https://npm.pkg.github.com/",
     "pkgRoot": "packages/backend-common/"
   },
   "files": [
