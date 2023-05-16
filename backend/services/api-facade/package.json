@@ -2,10 +2,12 @@
   "name": "test",
   "private": true,
   "dependencies": {
-    "@andrew-org-test/backend-common": "1.1.0"
+    "@andrew-org-test/backend-common": "1.1.0",
+    "@shieldpay/common": "workspace:*"
   },
   "devDependencies": {
     "@tsconfig/node18": "^2.0.0",
     "typescript": "^5.0.4"
-  }
+  },
+  "version": "3.0.0"
 }

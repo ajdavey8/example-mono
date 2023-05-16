@@ -1,0 +1,1 @@
+{"version":3,"file":"resource-name-generator.js","sourceRoot":"","sources":["../../../src/iac/common/resource-name-generator.ts"],"names":[],"mappings":";;;AAAO,MAAM,qBAAqB,GAAG,CAAC,KAAa,EAAE,MAAe,EAAE,EAAE;IACtE,OAAO,CAAC,IAAY,EAAE,EAAE,CAAC,GAAG,MAAM,CAAC,CAAC,CAAC,GAAG,MAAM,IAAI,CAAC,CAAC,CAAC,EAAE,GAAG,IAAI,KAAK,KAAK,EAAE,CAAC;AAC7E,CAAC,CAAC;AAFW,QAAA,qBAAqB,yBAEhC"}
