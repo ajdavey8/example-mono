@@ -1,7 +1,6 @@
 const name = 'backend-common';
 
 module.exports = {
-  extends: "semantic-release-monorepo",
   tagFormat: name + '-v${version}',
   branch: 'main',
   plugins: [
