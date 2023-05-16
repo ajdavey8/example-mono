@@ -1,5 +1,5 @@
 {
-  "name": "test",
+  "name": "api-facade",
   "private": true,
   "dependencies": {
     "@andrew-org-test/backend-common": "1.2.2"

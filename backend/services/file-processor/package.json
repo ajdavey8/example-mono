@@ -1,5 +1,4 @@
 {
-  "name": "test",
-  "private": true,
-  "dependencies": {}
+  "name": "file-processro",
+  "private": true
 }
