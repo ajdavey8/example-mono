@@ -49,7 +49,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Install dependencies
         run: |
-          yarn workspaces focus @andrew-org-test/backend-common
+          yarn workspaces focus backend-common
         env: 
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Lint, Test and Build
