@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/andrew-org-test/example-mono/compare/backend-common-v1.2.2...backend-common-v1.2.3) (2023-05-16)
+
+
+### Bug Fixes
+
+* yarnrc ([6e8f507](https://github.com/andrew-org-test/example-mono/commit/6e8f5075e8aa9b91ff4609417b8c720ad7c1842a))
+
 ## [1.2.2](https://github.com/andrew-org-test/example-mono/compare/backend-common-v1.2.1...backend-common-v1.2.2) (2023-05-16)
 
 
