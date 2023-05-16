@@ -1,18 +1,3 @@
-# [1.2.0](https://github.com/andrew-org-test/example-mono/compare/backend-common-v1.1.0...backend-common-v1.2.0) (2023-05-16)
-
-
-### Bug Fixes
-
-* indentation in workflow ([2ee76c1](https://github.com/andrew-org-test/example-mono/commit/2ee76c1387327ddc368c6ad0db0b516ba7023e7b))
-* make plural workspaces ([d32c3fc](https://github.com/andrew-org-test/example-mono/commit/d32c3fcfa4d9a96651587077dcfad558466ef640))
-* test colon affected ([52ce8be](https://github.com/andrew-org-test/example-mono/commit/52ce8bef7b4afdf2f3d614be62f94b696753cdd0))
-* use yarn workspaces ([574b8f4](https://github.com/andrew-org-test/example-mono/commit/574b8f4a5b0ea985f2a7adbdf7b9251a6317f1b6))
-
-
-### Features
-
-* test node auth in workflow ([dc2d4fb](https://github.com/andrew-org-test/example-mono/commit/dc2d4fb5f0b20ee85ec67b229ddd465a107add73))
-
 # [1.1.0](https://github.com/andrew-org-test/example-mono/compare/backend-common-v1.0.17...backend-common-v1.1.0) (2023-05-11)
 
 
