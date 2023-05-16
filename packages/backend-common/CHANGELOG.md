@@ -1,3 +1,10 @@
+## [1.2.5](https://github.com/andrew-org-test/example-mono/compare/backend-common-v1.2.4...backend-common-v1.2.5) (2023-05-16)
+
+
+### Bug Fixes
+
+* yarn install workspace additions ([1c898fc](https://github.com/andrew-org-test/example-mono/commit/1c898fc13af3b68814f8f1febd4bbf4e1610437b))
+
 ## [1.2.4](https://github.com/andrew-org-test/example-mono/compare/backend-common-v1.2.3...backend-common-v1.2.4) (2023-05-16)
 
 
