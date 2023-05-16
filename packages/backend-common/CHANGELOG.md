@@ -1,3 +1,10 @@
+## [1.2.4](https://github.com/andrew-org-test/example-mono/compare/backend-common-v1.2.3...backend-common-v1.2.4) (2023-05-16)
+
+
+### Bug Fixes
+
+* remove semantic-release-monorepo ([0bc3821](https://github.com/andrew-org-test/example-mono/commit/0bc38218edf6b5e32aa729b351bdca2ffd3f2660))
+
 ## [1.2.3](https://github.com/andrew-org-test/example-mono/compare/backend-common-v1.2.2...backend-common-v1.2.3) (2023-05-16)
 
 
