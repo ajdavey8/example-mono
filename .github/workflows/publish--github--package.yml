@@ -63,5 +63,6 @@ jobs:
         run: |
           npx nx affected -t release 
         env:
+          GH_TOKEN: ${{ steps.generate_token.outputs.token }}
           GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
           YARN_NPM_AUTH_TOKEN: ${{ steps.generate_token.outputs.token }}
