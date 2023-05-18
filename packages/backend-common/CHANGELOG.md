@@ -1,3 +1,10 @@
+## [1.2.12](https://github.com/andrew-org-test/example-mono/compare/backend-common-v1.2.11...backend-common-v1.2.12) (2023-05-18)
+
+
+### Bug Fixes
+
+* trigger ([8e8219b](https://github.com/andrew-org-test/example-mono/commit/8e8219b4861d3ea5f9b20b6e7e66cf07624aad88))
+
 ## [1.2.10](https://github.com/andrew-org-test/example-mono/compare/backend-common-v1.2.9...backend-common-v1.2.10) (2023-05-18)
 
 
