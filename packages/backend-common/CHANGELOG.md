@@ -1,3 +1,10 @@
+## [1.2.6](https://github.com/andrew-org-test/example-mono/compare/backend-common-v1.2.5...backend-common-v1.2.6) (2023-05-18)
+
+
+### Bug Fixes
+
+* build tsconfig ([6578022](https://github.com/andrew-org-test/example-mono/commit/657802252ac02046ce41a4a46d3bd9f94cca57a9))
+
 ## [1.2.5](https://github.com/andrew-org-test/example-mono/compare/backend-common-v1.2.4...backend-common-v1.2.5) (2023-05-16)
 
 
