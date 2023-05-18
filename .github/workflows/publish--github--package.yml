@@ -60,9 +60,15 @@ jobs:
           npx nx affected -t build
       - name: Publish
         if: ${{ github.ref == 'refs/heads/main' }}
-        run: |
-          npx nx affected -t release 
+        uses: codfish/semantic-release-action@v2
+        with:
+          additional_packages: |
+            [
+              '@semantic-release/changelog',
+              'semantic-release-yarn',
+              '@semantic-release/git',
+              'semantic-release-slack-bot'
+            ]
         env:
-          GH_TOKEN: ${{ steps.generate_token.outputs.token }}
           GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
           YARN_NPM_AUTH_TOKEN: ${{ steps.generate_token.outputs.token }}

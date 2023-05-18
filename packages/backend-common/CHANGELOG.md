@@ -1,10 +1,3 @@
-## [1.2.11](https://github.com/andrew-org-test/example-mono/compare/backend-common-v1.2.10...backend-common-v1.2.11) (2023-05-18)
-
-
-### Bug Fixes
-
-* try GH token ([bb802e0](https://github.com/andrew-org-test/example-mono/commit/bb802e0c858cc72895fbe4ab4a08a75d8bf2207e))
-
 ## [1.2.10](https://github.com/andrew-org-test/example-mono/compare/backend-common-v1.2.9...backend-common-v1.2.10) (2023-05-18)
 
 
