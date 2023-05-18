@@ -1,3 +1,10 @@
+## [1.2.8](https://github.com/andrew-org-test/example-mono/compare/backend-common-v1.2.7...backend-common-v1.2.8) (2023-05-18)
+
+
+### Bug Fixes
+
+* only use output token ([c8da431](https://github.com/andrew-org-test/example-mono/commit/c8da43178c086f89dd092f25f9a3d7aae03b238a))
+
 ## [1.2.7](https://github.com/andrew-org-test/example-mono/compare/backend-common-v1.2.6...backend-common-v1.2.7) (2023-05-18)
 
 

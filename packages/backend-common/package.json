@@ -1,7 +1,7 @@
 {
   "name": "@andrew-org-test/backend-common",
   "author": "Andrew",
-  "version": "1.2.7",
+  "version": "1.2.8",
   "license": "UNLICENSED",
   "description": "Library for common backend logic, types, etc, used by all of the micro-services",
   "main": "dist/src/index.js",
