@@ -24,17 +24,16 @@ jobs:
       packages: write
       actions: read
     steps:
-      - name: GitHub App token
-        id: app-token
-        uses: vidavidorra/github-app-token@3bfc462f0355ce6268121fdb6c140a8bb4c6839a # v1.0.1
+      - name: Generate token
+        id: generate_token
+        uses: tibdex/github-app-token@v1
         with:
-          appId: ${{ secrets.MY_SEMANTIC_RELEASE_BOT_APP_ID }}
-          privateKey: ${{ secrets.MY_SEMANTIC_RELEASE_BOT_PRIVATE_KEY }}
-          includeUserInformation: true
+          app_id: ${{ secrets.MY_SEMANTIC_RELEASE_BOT_APP_ID }}
+          private_key: ${{ secrets.MY_SEMANTIC_RELEASE_BOT_PRIVATE_KEY }}
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
-          token: ${{ steps.app-token.outputs.token }}
+          token: ${{ steps.generate_token.outputs.token }}
           persist-credentials: false
       - name: Derive appropriate SHAs for base and head for `nx affected` commands
         uses: nrwl/nx-set-shas@v3
@@ -47,13 +46,13 @@ jobs:
           # Defaults to the user or organization that owns the workflow file
           scope: '@andrew-org-test'
         env: 
-          NODE_AUTH_TOKEN: ${{ steps.app-token.outputs.token }}
-          GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
+          NODE_AUTH_TOKEN: ${{ steps.generate_token.outputs.token }}
+          GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
       - name: Install dependencies
         run: |
           yarn install
         env: 
-          NODE_AUTH_TOKEN: ${{ steps.app-token.outputs.token }}
+          NODE_AUTH_TOKEN: ${{ steps.generate_token.outputs.token }}
       - name: Lint, Test and Build
         run: |
           npx nx affected -t lint
@@ -64,9 +63,6 @@ jobs:
         run: |
           npx nx affected -t release 
         env:
-          GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
-          GIT_AUTHOR_NAME: ${{ steps.app-token.outputs.username }}
-          GIT_AUTHOR_EMAIL: ${{ steps.app-token.outputs.email }}
-          GIT_COMMITTER_NAME: ${{ steps.app-token.outputs.username }}
-          GIT_COMMITTER_EMAIL: ${{ steps.app-token.outputs.email }}
-          YARN_NPM_AUTH_TOKEN: ${{ steps.app-token.outputs.token }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
+          YARN_NPM_AUTH_TOKEN: ${{ steps.generate_token.outputs.token }}
