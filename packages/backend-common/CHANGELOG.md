@@ -1,3 +1,12 @@
+## [1.2.7](https://github.com/andrew-org-test/example-mono/compare/backend-common-v1.2.6...backend-common-v1.2.7) (2023-05-18)
+
+
+### Bug Fixes
+
+* dfd ([#19](https://github.com/andrew-org-test/example-mono/issues/19)) ([ca9b31c](https://github.com/andrew-org-test/example-mono/commit/ca9b31c4bc1c268529b305cbf5599612cb0d6cf4))
+* the base ([#21](https://github.com/andrew-org-test/example-mono/issues/21)) ([8489fe9](https://github.com/andrew-org-test/example-mono/commit/8489fe9775dec60257a15653f8f7726388917e2e))
+* the build ([#20](https://github.com/andrew-org-test/example-mono/issues/20)) ([bfe2115](https://github.com/andrew-org-test/example-mono/commit/bfe21150e1f9aa9078eb0af9066fcd66131b0af4))
+
 ## [1.2.6](https://github.com/andrew-org-test/example-mono/compare/backend-common-v1.2.5...backend-common-v1.2.6) (2023-05-18)
 
 
