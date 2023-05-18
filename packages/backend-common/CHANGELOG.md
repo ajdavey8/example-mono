@@ -1,3 +1,10 @@
+## [1.2.10](https://github.com/andrew-org-test/example-mono/compare/backend-common-v1.2.9...backend-common-v1.2.10) (2023-05-18)
+
+
+### Bug Fixes
+
+* no persist ([2253f60](https://github.com/andrew-org-test/example-mono/commit/2253f604452bd651f749b41d641abe615907a28d))
+
 ## [1.2.9](https://github.com/andrew-org-test/example-mono/compare/backend-common-v1.2.8...backend-common-v1.2.9) (2023-05-18)
 
 
