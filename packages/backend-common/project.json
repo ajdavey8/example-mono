@@ -6,7 +6,7 @@
         "options": {
             "outputPath": "packages/backend-common/dist/",
             "main": "src/index.ts",
-            "tsConfig": "tsconfig.lib.json",
+            "tsConfig": "packages/backend-common/tsconfig.lib.json",
             "rootDir":"packages/backend-common/",
             "assets": ["/*.md"]
         }
