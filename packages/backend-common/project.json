@@ -5,8 +5,8 @@
         "executor": "@nx/js:tsc",
         "options": {
             "outputPath": "packages/backend-common/dist/",
-            "main": "dist/src/index.ts",
-            "tsConfig": "packages/backend-common/tsconfig.lib.json",
+            "main": "src/index.ts",
+            "tsConfig": "tsconfig.lib.json",
             "rootDir":"packages/backend-common/",
             "assets": ["/*.md"]
         }
