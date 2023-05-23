@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: backstage-all
+  description: A collection of all Shieldpay entities, except users, groups, and templates
+spec:
+  targets:
+    - ../backend/services/all-apis.yaml
+    - ../backend/services/all-components.yaml

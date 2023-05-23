@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: spg-apis
+  description: A collection of all Shieldpay APIs
+spec:
+  targets:
+    - ./api-facade/docs/api-info.yaml
+    - ./file-processor/docs/api-info.yaml
