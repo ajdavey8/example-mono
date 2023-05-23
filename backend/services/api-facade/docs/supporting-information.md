@@ -1,9 +1,4 @@
-## Overview
-
-A public API that sits infront of the Hertitage and Optimus platforms, allowing third parties to make API calls to Shieldpay while masking the platform and/or service handling the requets.
-
-This service implements the pattern described bellow: https://aws.amazon.com/blogs/architecture/unlocking-data-from-existing-systems-with-serverless-api-facade/
-
+# Useful Information:
 Working with the API Facade requires at least some understanding of Public/Private Key encryption, Mutual TLS, and signing documents usings a Public/Private key. Here are some useful resources to familiarise yourself with these topics:
 
 - https://www.youtube.com/watch?v=HHQ2QP_upGM&list=PLIFyRwBY_4bRA8g3gVainRSoNNDL5qqQN&index=13&ab_channel=PracticalNetworking
@@ -12,3 +7,10 @@ Working with the API Facade requires at least some understanding of Public/Priva
 - https://www.youtube.com/watch?v=_zyKvPvh808&list=PLIFyRwBY_4bRA8g3gVainRSoNNDL5qqQN&index=16&ab_channel=PracticalNetworking
 - https://www.youtube.com/watch?v=l_ZbduoVQqs&ab_channel=Venafi
 - https://www.youtube.com/watch?v=8FB12c1lDyo&ab_channel=AmazonWebServices
+
+## Contents
+- Auth
+  - [Shieldpay Certificate Authority](./auth/shieldpay-certificate-authority.md)
+  - [Setting Partner Up In Heritage](./auth/setting-partner-up-in-heritage.md)
+  - [Partner API Keys](./auth/partner-api-keys.md)
+  - [Partner Certificates](./auth/partner-certificates.md)
