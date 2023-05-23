@@ -1,8 +1,11 @@
 site_name: API Facade
 
 nav:
-  - Home: index.md
-  - Certificates: auth/certificates.md
+  - Overview: index.md
+  - Developer Environment: developer-environment.md
+  - Code Architecture: code-architecture.md
+  - Supporting Information: supporting-information.md
+  - Convention: convention.md
 
 plugins:
   - techdocs-core
