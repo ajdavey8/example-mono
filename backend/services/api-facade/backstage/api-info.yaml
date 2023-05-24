@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: api-facade
+  description: The API facade for the Shieldpay platform
 spec:
   type: openapi
   lifecycle: production
