@@ -5,5 +5,5 @@ metadata:
   description: A collection of all Shieldpay entities, except users, groups, and templates
 spec:
   targets:
-    - ../backend/services/all-apis.yaml
-    - ../backend/services/all-components.yaml
+    - ./all-apis.yaml
+    - ./all-components.yaml

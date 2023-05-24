@@ -8,4 +8,4 @@ spec:
   lifecycle: production
   owner: ironhide
   definition:
-    $text: ../docs/openapi.yaml
+    $text: ./openapi.yaml
