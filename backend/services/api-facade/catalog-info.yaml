@@ -14,5 +14,5 @@ spec:
     - api-facade # This is the name of the API we provide here
   consumesApis:
     - file-processor  # This is the name of the component that provides the API we consume here
-  # dependsOn:
-  #   - file-processor # This is the name of the component that provides the API we consume here
+  dependsOn:
+    - file-processor # This is the name of the component that provides the API we consume here
