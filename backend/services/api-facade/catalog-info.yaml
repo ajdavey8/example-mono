@@ -5,6 +5,7 @@ metadata:
   description: "The API facade for the Shieldpay platform"
   annotations:
     backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: andrew-org-test/example-mono
 spec:
   type: service
   owner: ironhide
