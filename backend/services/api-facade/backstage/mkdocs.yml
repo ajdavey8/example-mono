@@ -2,10 +2,10 @@ site_name: API Facade
 
 nav:
   - Overview: ../docs/index.md
-  - Developer Environment: ./docs/developer-environment.md
-  - Code Architecture: ./docs/code-architecture.md
-  - Supporting Information: ./docs/supporting-information.md
-  - Convention: ./docs/convention.md
+  - Developer Environment: ../docs/developer-environment.md
+  - Code Architecture: ../docs/code-architecture.md
+  - Supporting Information: ../docs/supporting-information.md
+  - Convention: ../docs/convention.md
 
 plugins:
   - techdocs-core
