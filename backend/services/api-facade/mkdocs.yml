@@ -6,7 +6,6 @@ nav:
   - Code Architecture: ./code-architecture.md
   - Supporting Information: ./supporting-information.md
   - Convention: ./convention.md
-  - Readme: ../README.md
 
 plugins:
   - techdocs-core
