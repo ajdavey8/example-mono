@@ -1,0 +1,47 @@
+openapi: 3.0.0
+info:
+  title: File Processor Service
+  version: 0.0.0
+paths:
+  /request-upload:
+    post:
+      summary: Requests a upload url for a given file.
+      responses:
+        "200":
+          description: Returns file information and a pre-signed S3 upload url.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  extension:
+                    type: string
+                    enum:
+                      - gif
+                      - jpg
+                      - jpeg
+                      - png
+                  mimeType:
+                    type: "string"
+                    enum:
+                      - image/gif
+                      - image/jpeg
+                      - image/png
+                  fileSize:
+                    type: integer
+                    minimum: 1
+                    maximum: 8000000
+                  partyId:
+                    type: string
+                  docType:
+                    type: "string"
+                    enum:
+                      - bank_statement
+                      - identification_card
+                      - other
+                required:
+                  - extension
+                  - mimeType
+                  - fileSize
+                  - partyId
+                  - docType
