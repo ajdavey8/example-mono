@@ -1,0 +1,16 @@
+{ 
+    "sourceRoot": "packages/backend-developer-tool-configs/src",
+    "targets": {
+        "build": {
+        "executor": "@nx/js:tsc",
+        "options": {
+            "outputPath": "packages/backend-developer-tool-configs/dist/",
+            "main": "src/index.ts",
+            "tsConfig": "packages/backend-developer-tool-configs/tsconfig.lib.json",
+            "rootDir":"packages/backend-developer-tool-configs/",
+            "assets": ["/*.md"]
+        }
+        }
+    },
+    "tags": ["package"]
+}
