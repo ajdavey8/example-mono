@@ -1,0 +1,16 @@
+{ 
+    "sourceRoot": "packages/${{ values.name }}/src",
+    "targets": {
+        "build": {
+        "executor": "@nx/js:tsc",
+        "options": {
+            "outputPath": "packages/${{ values.name }}/dist/",
+            "main": "src/index.ts",
+            "tsConfig": "packages/${{ values.name }}/tsconfig.lib.json",
+            "rootDir":"packages/${{ values.name }}/",
+            "assets": ["/*.md"]
+        }
+        }
+    },
+    "tags": ["package"]
+}

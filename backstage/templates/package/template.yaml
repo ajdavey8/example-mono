@@ -2,11 +2,11 @@ apiVersion: scaffolder.backstage.io/v1beta3
 # https://backstage.io/docs/features/software-catalog/descriptor-format#kind-template
 kind: Template
 metadata:
-  name: backend-nodejs-template
-  title: Backend Node.js Service Template
-  description: A simple backend service setup with CDK and SST
+  name: github-npm-package-template
+  title: GitHub Package NPM Template
+  description: Template for creating a new NPM package in GitHub Packages
 spec:
-  owner: user:guest
+  owner: shieldpay
   type: service
 
   # These parameters are used to generate the input form in the frontend, and are
@@ -19,19 +19,14 @@ spec:
         name:
           title: Name
           type: string
-          description: Unique name of the service
+          description: Unique name of the package
           ui:autofocus: true
           ui:options:
             rows: 5
         description:
           title: Description
           type: string
-          description: Description of the service
-        targetPath:
-          title: Target Path in repo
-          type: string
-          default: 'backend/services'
-          description: Name of the directory to create in the repository
+          description: Description of the package
     - title: Choose a location
       required:
         - repoUrl
@@ -54,6 +49,7 @@ spec:
         url: ./content
         values:
           name: ${{ parameters.name }}
+          description: ${{ parameters.description }}
 
     # This step publishes the contents of the working directory to GitHub.
     - id: publish
@@ -61,14 +57,14 @@ spec:
       action: publish:github:pull-request
       input:
         repoUrl: ${{ parameters.repoUrl }}
-        title: 'Create new service: ${{parameters.name}}'
+        title: 'feat: Add new package - ${{parameters.name}}'
         branchName: 'create-${{parameters.name}}'
-        description: ${{parameters.description}}
+        description: 'A new package that: ${{parameters.description}}'
         host: ${{parameters.host}}
-        targetPath: '${{parameters.targetPath}}/${{parameters.name}}'
+        targetPath: 'packages/${{parameters.name}}'
 
   # Outputs are displayed to the user after a successful execution of the template.
   output:
     links:
-      - title: Link to the new service PR
+      - title: Link to the new package PR
         url: ${{ steps['publish'].output.remoteUrl }}
