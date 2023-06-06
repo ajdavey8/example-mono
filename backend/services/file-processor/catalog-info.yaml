@@ -4,9 +4,12 @@ metadata:
   name: "file-processor"
   annotations:
     backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: andrew-org-test/example-mono
 spec:
   type: service
   owner: ironhide
   lifecycle: production
   system: kyc
+  providesApis:
+    - file-processor # This is the name of the API we provide here
 
