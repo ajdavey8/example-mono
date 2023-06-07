@@ -7,3 +7,4 @@ spec:
   targets:
     - ./all-apis.yaml
     - ./all-components.yaml
+    - ./catalog/resources/database.yaml
