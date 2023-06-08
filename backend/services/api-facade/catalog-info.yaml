@@ -7,9 +7,9 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     github.com/project-slug: andrew-org-test/example-mono
   links:
-  - url: http://sandbox-backstage-alb-96712531.eu-west-1.elb.amazonaws.com
-    title: Backstage Sandbox
-    icon: dashboard
+    - url: http://sandbox-backstage-alb-96712531.eu-west-1.elb.amazonaws.com
+      title: Backstage Sandbox
+      icon: dashboard
 spec:
   type: service
   owner: ironhide
