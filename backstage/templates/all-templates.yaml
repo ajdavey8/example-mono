@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: spg-templates
+  description: A collection of all Shieldpay Templates
+spec:
+  targets:
+    - ./backend-service/template.yaml
+    - ./package/template.yaml

@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: spg-domains
+  description: A collection of all Shieldpay Domains
+spec:
+  targets:
+    - ./verification.yaml
+

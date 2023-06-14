@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: spg-resources
+  description: A collection of all Shieldpay Resources (DB, Queues etc.)
+spec:
+  targets:
+    - ./database.yaml
+
