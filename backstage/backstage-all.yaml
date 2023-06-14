@@ -11,4 +11,3 @@ spec:
     - ./resources/all-resources.yaml
     - ./systems/all-systems.yaml
     - ./templates/all-templates.yaml
-    - ./catalog/resources/database.yaml
