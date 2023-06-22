@@ -25,7 +25,7 @@ spec:
   lifecycle: production
   owner: ironhide
   definition:
-    $text: ../docs/api/schema/public-api-swagger.yml
+    $text: ./docs/api/schema/public-api-swagger.yml
 
 ...
 # service/resources
