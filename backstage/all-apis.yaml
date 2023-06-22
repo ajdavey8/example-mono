@@ -5,5 +5,8 @@ metadata:
   description: A collection of all Shieldpay APIs
 spec:
   targets:
-    - ../backend/services/api-facade/docs/api-info.yaml
-    - ../backend/services/file-processor/docs/api-info.yaml
+    - ../backend/services/api-facade/backstage/catalog-info.yaml
+    - ../backend/services/file-processor/backstage/catalog-info.yaml
+  rules:
+    - match:
+        kind: api

@@ -13,12 +13,26 @@ metadata:
 spec:
   type: service
   owner: ironhide
-  system: kyc   # The system this component belongs to
-  lifecycle: production   # Supports  "experimental", "development", "production", "deprecated"
+  system: kyc # The system this component belongs to
+  lifecycle: production # Supports  "experimental", "development", "production", "deprecated"
   providesApis:
     - api-facade # This is the name of the API we provide here
   consumesApis:
-    - file-processor  # This is the name of the component that provides the API we consume here
+    - file-processor # This is the name of the component that provides the API we consume here
   dependsOn:
     - component:file-processor # This is the name of the component that provides the API we consume here
     - resource:test-db # This is the name of the resource that provides the API we consume here
+
+# api-info.yaml
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: api-facade
+  description: The API facade for the Shieldpay platform
+spec:
+  type: openapi
+  lifecycle: production
+  owner: ironhide
+  definition:
+    $text: ./openapi.yaml

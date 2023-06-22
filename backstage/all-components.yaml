@@ -5,5 +5,5 @@ metadata:
   description: A collection of all Shieldpay components (Services)
 spec:
   targets:
-    - ../backend/services/api-facade/catalog-info.yaml
-    - ../backend/services/file-processor/catalog-info.yaml
+    - ../backend/services/api-facade/backstage/catalog-info.yaml
+    - ../backend/services/file-processor/backstage/catalog-info.yaml
