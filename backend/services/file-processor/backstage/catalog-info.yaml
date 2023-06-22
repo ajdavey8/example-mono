@@ -1,0 +1,42 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "file-processor"
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: andrew-org-test/example-mono
+spec:
+  type: service
+  owner: ironhide
+  lifecycle: production
+  system: kyc
+  providesApis:
+    - file-processor # This is the name of the API we provide here
+
+...
+# api-info.yaml
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: file-processor
+spec:
+  type: openapi
+  lifecycle: production
+  owner: ironhide
+  definition:
+    $text: ./docs/api/schema/public-api-swagger.yml
+
+...
+# service/resources
+# Database
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: test-db
+  description: db for sevice
+spec:
+  type: database
+  owner: ironhide
+  system: kyc
