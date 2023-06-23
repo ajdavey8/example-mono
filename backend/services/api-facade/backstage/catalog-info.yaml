@@ -35,4 +35,4 @@ spec:
   lifecycle: production
   owner: ironhide
   definition:
-    $text: ./openapi.yaml
+    $text: https://github.com/andrew-org-test/example-mono/blob/main/backend/services/api-facade/backstage/openapi.yaml
