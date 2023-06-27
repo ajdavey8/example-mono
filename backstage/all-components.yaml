@@ -6,4 +6,4 @@ metadata:
 spec:
   targets:
     - ../backend/services/api-facade/catalog-info.yaml
-    - ../backend/services/file-processor/catalog-info.yaml
+    - ../backend/services/file-processor/backstage/catalog-info.yaml
