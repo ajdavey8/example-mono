@@ -3,7 +3,7 @@ const name = 'developer-config';
 module.exports = {
   extends: "semantic-release-monorepo",
   tagFormat: name + '-v${version}',
-  branch: 'master',
+  branch: 'main',
   plugins: [
     '@semantic-release/commit-analyzer',
     '@semantic-release/release-notes-generator',
