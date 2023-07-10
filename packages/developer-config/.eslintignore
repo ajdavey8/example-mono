@@ -1,3 +1,4 @@
 dist
 coverage
 release.config.js
+src/**/*.js
