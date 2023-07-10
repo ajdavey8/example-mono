@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/andrew-org-test/example-mono/compare/backend-common-v1.3.0...backend-common-v1.3.1) (2023-07-10)
+
+
+### Bug Fixes
+
+* branch naming ([0499741](https://github.com/andrew-org-test/example-mono/commit/04997415bdb3209b5c0b9a2265c6bb7951d8d5a3))
+
 ## [1.2.14](https://github.com/andrew-org-test/example-mono/compare/backend-common-v1.2.13...backend-common-v1.2.14) (2023-05-18)
 
 
