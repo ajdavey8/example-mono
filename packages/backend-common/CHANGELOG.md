@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/andrew-org-test/example-mono/compare/backend-common-v1.3.1...backend-common-v1.3.2) (2023-07-10)
+
+
+### Bug Fixes
+
+* remove slack bot code ([87f3182](https://github.com/andrew-org-test/example-mono/commit/87f318217836629a7b3af4c737e3eaa21c4987c4))
+
 ## [1.3.1](https://github.com/andrew-org-test/example-mono/compare/backend-common-v1.3.0...backend-common-v1.3.1) (2023-07-10)
 
 
