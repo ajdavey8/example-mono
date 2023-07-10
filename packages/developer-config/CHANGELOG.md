@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/andrew-org-test/example-mono/compare/developer-config-v1.0.1...developer-config-v1.0.2) (2023-07-10)
+
+
+### Bug Fixes
+
+* remove main and update exports ([51eae57](https://github.com/andrew-org-test/example-mono/commit/51eae57afd0a983103f1fd5415b24d8f40d647f4))
+
 ## [1.0.1](https://github.com/andrew-org-test/example-mono/compare/developer-config-v1.0.0...developer-config-v1.0.1) (2023-07-10)
 
 
