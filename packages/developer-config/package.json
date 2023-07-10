@@ -1,7 +1,7 @@
 {
   "name": "@andrew-org-test/developer-config",
   "author": "andrew",
-  "version": "0.0.0-semantic-release",
+  "version": "1.0.1",
   "license": "UNLICENSED",
   "description": "Basic configuration for developer tools",
   "type": "commonjs",
