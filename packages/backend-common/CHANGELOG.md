@@ -1,3 +1,10 @@
+## [1.3.3](https://github.com/andrew-org-test/example-mono/compare/backend-common-v1.3.2...backend-common-v1.3.3) (2023-07-10)
+
+
+### Bug Fixes
+
+* only trigger developer config ([7ba5941](https://github.com/andrew-org-test/example-mono/commit/7ba59415e2255cc0a8fbd3b74dfda536f95e3502))
+
 ## [1.3.2](https://github.com/andrew-org-test/example-mono/compare/backend-common-v1.3.1...backend-common-v1.3.2) (2023-07-10)
 
 
