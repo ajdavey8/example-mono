@@ -1,3 +1,15 @@
+# [1.3.0](https://github.com/andrew-org-test/example-mono/compare/backend-common-v1.2.14...backend-common-v1.3.0) (2023-07-10)
+
+
+### Bug Fixes
+
+* lint for dev config ([d102f73](https://github.com/andrew-org-test/example-mono/commit/d102f7381afdb6af4fc9eb33e74e75a4317a70a2))
+
+
+### Features
+
+* add gp template ([4fc3aba](https://github.com/andrew-org-test/example-mono/commit/4fc3abaa58e247ffeb5284eef26c1535090a848e))
+
 ## [1.2.14](https://github.com/andrew-org-test/example-mono/compare/backend-common-v1.2.13...backend-common-v1.2.14) (2023-05-18)
 
 
