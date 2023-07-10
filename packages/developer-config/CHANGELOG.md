@@ -5,6 +5,13 @@
 
 * only trigger developer config ([7ba5941](https://github.com/andrew-org-test/example-mono/commit/7ba59415e2255cc0a8fbd3b74dfda536f95e3502))
 
+## [1.0.1](https://github.com/andrew-org-test/example-mono/compare/developer-config-v1.0.0...developer-config-v1.0.1) (2023-07-10)
+
+
+### Bug Fixes
+
+* only trigger developer config ([7ba5941](https://github.com/andrew-org-test/example-mono/commit/7ba59415e2255cc0a8fbd3b74dfda536f95e3502))
+
 ## 1.0.0 (2023-07-10)
 
 
