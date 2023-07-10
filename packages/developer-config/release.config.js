@@ -23,14 +23,6 @@ module.exports = {
           '${nextRelease.version} [skip ci]\n\n${nextRelease.notes}',
       },
     ],
-    [
-      "semantic-release-slack-bot",
-      {
-        "slackChannel": "#github-packages-releases",
-        "notifyOnSuccess": true,
-        "notifyOnFail": true
-      }
-    ]
   ],
   // This allows us to use the conventional commits format instead of angular
   preset: "conventionalcommits",
