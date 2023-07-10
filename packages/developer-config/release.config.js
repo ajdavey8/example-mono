@@ -35,7 +35,7 @@ module.exports = {
       { type: "chore", scope: "deps", section: "Dependencies" },
       { type: "chore", hidden: true },
       { type: "docs", hidden: true },
-      { type: "style", hidden: true },
+      { type: "ste", hidden: true },
       { type: "refactor", hidden: true },
       { type: "perf", hidden: true },
       { type: "test", hidden: true },

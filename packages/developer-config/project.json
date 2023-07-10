@@ -1,14 +1,14 @@
 {
-  "sourceRoot": "packages/developer-config/src/",
+  "sourceRoot": "packages/developer-config/",
   "targets": {
     "build": {
       "executor": "@nx/js:tsc",
       "options": {
-        "outputPath": "packages/developer-config/dist/",
-        "main": "dist/src/index.ts",
-        "tsConfig": "packages/developer-config/tsconfig.lib.json",
         "rootDir": "packages/developer-config/",
-        "assets": ["/*.md"]
+        "allowJs": true,
+        "outputPath": "packages/developer-config/dist/",
+        "main": "packages/developer-config/",
+        "tsConfig": "packages/developer-config/tsconfig.lib.json"
       }
     }
   }
