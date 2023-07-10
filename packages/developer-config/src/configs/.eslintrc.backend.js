@@ -1,5 +1,5 @@
-const handlerCaptureExceptionPlugin = require("./handler-capture-exception/index");
-const useOptimusEventsPlugin = require("./use-optimus-events/index");
+const handlerCaptureExceptionPlugin = require("../eslint/handler-capture-exception/index");
+const useOptimusEventsPlugin = require("../eslint/use-optimus-events/index");
 
 module.exports = {
   root: true,

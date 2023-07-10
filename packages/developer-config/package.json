@@ -3,8 +3,9 @@
   "author": "andrew",
   "version": "1.0.1",
   "license": "UNLICENSED",
-  "description": "Basic configuration for developer",
+  "description": "Basic configuration for develope tools",
   "type": "commonjs",
+  "main": "src/",
   "repository": {
     "type": "git",
     "url": "https://github.com/andrew-org-test/example-mono.git",
@@ -15,19 +16,19 @@
     "pkgRoot": "packages/developer-config/"
   },
   "exports": {
+    "./configs/jest.config.js": {
+      "require": "./configs/jest.config.js"
+    },
     "./configs/.eslintrc.backend.js": {
-      "require": "./src/eslint/backend.js"
+      "require": "./configs/.eslintrc.backend.js"
     },
     "./configs/.prettierrc.js": {
       "require": "./configs/.prettierrc.js"
     },
     "./configs/tsconfig.backend.json": {
-      "require": "./src/tsconfig/backend.json"
+      "require": "./configs/tsconfig.backend.json"
     }
   },
-  "files": [
-    "dist/src/**"
-  ],
   "release": {
     "branches": [
       "main"
