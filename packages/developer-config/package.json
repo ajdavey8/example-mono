@@ -5,6 +5,7 @@
   "license": "UNLICENSED",
   "description": "Basic configuration for develope tools",
   "type": "commonjs",
+  "main": "dist/src/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/andrew-org-test/example-mono.git",

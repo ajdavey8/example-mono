@@ -5,7 +5,8 @@
     "declaration": true,
   },
   "include": [
-    "**/*.ts"
+    "**/*.ts",
+    "src/**/*.js"
   ],
   "exclude": [
     "jest.config.ts",
