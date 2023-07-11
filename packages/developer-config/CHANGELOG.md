@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/andrew-org-test/example-mono/compare/developer-config-v1.0.4...developer-config-v1.0.5) (2023-07-11)
+
+
+### Bug Fixes
+
+* build configs ([21051ea](https://github.com/andrew-org-test/example-mono/commit/21051eac7ce87c26c08ad8499a66ff987e905d6a))
+
 ## [1.0.4](https://github.com/andrew-org-test/example-mono/compare/developer-config-v1.0.3...developer-config-v1.0.4) (2023-07-11)
 
 

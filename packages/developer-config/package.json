@@ -1,7 +1,7 @@
 {
   "name": "@andrew-org-test/developer-config",
   "author": "andrew",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "license": "UNLICENSED",
   "description": "Basic configuration for develope tools",
   "type": "commonjs",
