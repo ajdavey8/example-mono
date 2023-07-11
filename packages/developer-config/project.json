@@ -4,11 +4,11 @@
     "build": {
       "executor": "@nx/js:tsc",
       "options": {
-        "rootDir": "packages/developer-config/",
-        "allowJs": true,
         "outputPath": "packages/developer-config/dist/",
-        "main": "packages/developer-config/",
-        "tsConfig": "packages/developer-config/tsconfig.lib.json"
+        "main": "dist/src/index.ts",
+        "tsConfig": "packages/developer-config/tsconfig.lib.json",
+        "rootDir":"packages/developer-config/",
+        "assets": ["/*.md"]
       }
     }
   }

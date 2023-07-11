@@ -15,17 +15,21 @@
     "pkgRoot": "packages/developer-config/"
   },
   "exports": {
+    ".": {
+      "import": "./dist/src/index.js",
+      "require": "./dist/src/index.js"
+    },
     "./configs/jest.config.js": {
-      "require": "./src/configs/jest.config.js"
+      "require": "./configs/jest.config.js"
     },
     "./configs/.eslintrc.backend.js": {
       "require": "./configs/.eslintrc.backend.js"
     },
     "./configs/.prettierrc.js": {
-      "require": "./src/configs/.prettierrc.js"
+      "require": "./configs/.prettierrc.js"
     },
     "./configs/tsconfig.backend.json": {
-      "require": "./src/configs/tsconfig.backend.json"
+      "require": "./configs/tsconfig.backend.json"
     }
   },
   "release": {

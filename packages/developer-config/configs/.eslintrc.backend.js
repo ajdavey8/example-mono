@@ -1,5 +1,5 @@
-const handlerCaptureExceptionPlugin = require("../eslint/handler-capture-exception/index");
-const useOptimusEventsPlugin = require("../eslint/use-optimus-events/index");
+// const handlerCaptureExceptionPlugin = require("../eslint/handler-capture-exception/index");
+// const useOptimusEventsPlugin = require("../eslint/use-optimus-events/index");
 
 module.exports = {
   root: true,
@@ -11,8 +11,8 @@ module.exports = {
     "@typescript-eslint",
     "jest",
     "@shieldpay/use-optimus-events",
-    { "@shieldpay/use-optimus-events": useOptimusEventsPlugin },
-    { "@shieldpay/handler-capture-exception": handlerCaptureExceptionPlugin },
+    // { "@shieldpay/use-optimus-events": useOptimusEventsPlugin },
+    // { "@shieldpay/handler-capture-exception": handlerCaptureExceptionPlugin },
     "import",
   ],
   extends: [
@@ -30,8 +30,8 @@ module.exports = {
     "prettier.config.js",
   ],
   rules: {
-    "@shieldpay/handler-capture-exception/handler-capture-exception": ["error"],
-    "@shieldpay/use-optimus-events/use-optimus-events": 2,
+    // "@shieldpay/handler-capture-exception/handler-capture-exception": ["error"],
+    // "@shieldpay/use-optimus-events/use-optimus-events": 2,
     "@typescript-eslint/ban-ts-comment": [
       "error",
       {
