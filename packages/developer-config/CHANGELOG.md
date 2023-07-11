@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/andrew-org-test/example-mono/compare/developer-config-v1.0.2...developer-config-v1.0.3) (2023-07-11)
+
+
+### Bug Fixes
+
+* build eslint rules ([63bb3bb](https://github.com/andrew-org-test/example-mono/commit/63bb3bbd1276f31533432b6f1c9fa6efcf10bf23))
+
 ## [1.0.2](https://github.com/andrew-org-test/example-mono/compare/developer-config-v1.0.1...developer-config-v1.0.2) (2023-07-10)
 
 
