@@ -14,6 +14,10 @@
     "registry": "https://npm.pkg.github.com/",
     "pkgRoot": "packages/developer-config/"
   },
+  "files": [
+    "dist/src/**",
+    "configs/**"
+  ],
   "exports": {
     ".": {
       "import": "./dist/src/index.js",
