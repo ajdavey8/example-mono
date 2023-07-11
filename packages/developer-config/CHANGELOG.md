@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/andrew-org-test/example-mono/compare/developer-config-v1.0.3...developer-config-v1.0.4) (2023-07-11)
+
+
+### Bug Fixes
+
+* jest config files ([5fa6ae4](https://github.com/andrew-org-test/example-mono/commit/5fa6ae4417b5170322734d389e515f6b4feffa0c))
+
 ## [1.0.3](https://github.com/andrew-org-test/example-mono/compare/developer-config-v1.0.2...developer-config-v1.0.3) (2023-07-11)
 
 
