@@ -30,7 +30,7 @@ spec:
         targetPath:
           title: Target Path in repo
           type: string
-          default: 'backend/services'
+          default: "backend/services"
           description: Name of the directory to create in the repository
     - title: Choose a location
       required:
@@ -55,17 +55,25 @@ spec:
         values:
           name: ${{ parameters.name }}
 
+    - id: fetch-base2
+      name: Fetch Base
+      action: fetch:template
+      input:
+        url: ./content2
+        values:
+          name: ${{ parameters.name }}
+
     # This step publishes the contents of the working directory to GitHub.
     - id: publish
       name: Create new service PR
       action: publish:github:pull-request
       input:
         repoUrl: ${{ parameters.repoUrl }}
-        title: 'Create new service: ${{parameters.name}}'
-        branchName: 'create-${{parameters.name}}'
+        title: "Create new service: ${{parameters.name}}"
+        branchName: "create-${{parameters.name}}"
         description: ${{parameters.description}}
         host: ${{parameters.host}}
-        targetPath: '${{parameters.targetPath}}/${{parameters.name}}'
+        targetPath: "${{parameters.targetPath}}/${{parameters.name}}"
 
   # Outputs are displayed to the user after a successful execution of the template.
   output:
