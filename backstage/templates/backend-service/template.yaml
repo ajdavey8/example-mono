@@ -55,18 +55,16 @@ spec:
         values:
           name: ${{ parameters.name }}
 
-    - id: fetch-base2
+    - id: Add workflow
       name: Fetch Base
-      action: fetch:template
+      action: workflow:write
       input:
-        url: ./content2
-        values:
-          name: ${{ parameters.name }}
+        repoUrl: ""
 
     # This step publishes the contents of the working directory to GitHub.
     - id: publish
       name: Create new service PR
-      action: publish:github:pull-request
+      action: publish:github:pull-request:with-workflows
       input:
         repoUrl: ${{ parameters.repoUrl }}
         title: "Create new service: ${{parameters.name}}"
