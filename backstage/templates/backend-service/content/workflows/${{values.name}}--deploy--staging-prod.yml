@@ -1,0 +1,39 @@
+name: "${{ values.name | capitalize }} :: Deploy :: Staging To Prod"
+
+on: workflow_dispatch
+
+jobs:
+  deploy-staging:
+    uses: ./.github/workflows/deploy-service.yml
+    with:
+      github-environment: Staging
+      sentry-environment: "staging"
+      stage: staging
+      service-name: "@shieldpay/${{ values.name }}"
+      service-path: backend/services/${{ values.name }}
+      sourcemap-paths: ./dist
+      lint-code: true
+      test-code: true
+    secrets:
+      aws-role-arn: {% raw %} ${{ secrets.DEPLOYMENT_ROLE_ARN }} {% endraw %}
+      sentry-project: {% raw %} ${{ secrets.SENTRY_PROJECT }} {% endraw %}
+      sentry-token: {% raw %} ${{ secrets.SENTRY_AUTH_TOKEN }} {% endraw %}
+      sentry-org: {% raw %} ${{ secrets.SENTRY_ORG }} {% endraw %}
+
+  deploy-production:
+    uses: ./.github/workflows/deploy-service.yml
+    needs: [deploy-staging]
+    with:
+      github-environment: Production
+      sentry-environment: "production"
+      stage: prod
+      service-name: "@shieldpay/${{ values.name }}"
+      service-path: backend/services/${{ values.name }}
+      sourcemap-paths: ./dist
+      lint-code: false
+      test-code: false
+    secrets:
+      aws-role-arn: {% raw %} ${{ secrets.DEPLOYMENT_ROLE_ARN }} {% endraw %}
+      sentry-project: {% raw %} ${{ secrets.SENTRY_PROJECT }} {% endraw %}
+      sentry-token: {% raw %} ${{ secrets.SENTRY_AUTH_TOKEN }} {% endraw %}
+      sentry-org: {% raw %} ${{ secrets.SENTRY_ORG }} {% endraw %}

@@ -1,0 +1,14 @@
+name: "${{ values.name | capitalize }} :: Teardown :: Dev"
+
+on: workflow_dispatch
+
+jobs:
+  teardown-dev-preview:
+    uses: ./.github/workflows/teardown-service.yml
+    with:
+      github-environment: DevPreview
+      stage: {% raw %} $(echo ${{ github.actor }} | awk '{print tolower($0)}') {% endraw %}
+      service-name: "@shieldpay/${{ values.name }}"
+      service-path: backend/services/${{ values.name }}
+    secrets:
+      aws-role-arn: {% raw %} ${{ secrets.DEPLOYMENT_ROLE_ARN }} {% endraw %}

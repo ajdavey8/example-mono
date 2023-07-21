@@ -1,0 +1,25 @@
+name: "${{ values.name | capitalize }} :: Deploy :: Int"
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - ".github/workflows/deploy-service.yml"
+      - ".github/workflows/${{ values.name }}--deploy--int.yml"
+      - "backend/services/${{ values.name }}/**"
+
+jobs:
+  deploy-integration:
+    uses: ./.github/workflows/deploy-service.yml
+    with:
+      github-environment: Integration
+      stage: int
+      service-name: "@shieldpay/${{ values.name }}"
+      service-path: backend/services/${{ values.name }}
+      lint-code: true
+      test-code: true
+      notify-on-failure: true
+    secrets:
+      aws-role-arn: {% raw %} ${{ secrets.DEPLOYMENT_ROLE_ARN }} {% endraw %}
+      slack-webhook-url: {% raw %} ${{ secrets.SLACK_WEBHOOK_URL }} {% endraw %}
