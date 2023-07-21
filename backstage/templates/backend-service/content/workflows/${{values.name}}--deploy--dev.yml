@@ -1,4 +1,4 @@
-name: "${{ values.name }} :: Deploy :: Dev"
+name: "${{ values.name | capitalize }} :: Deploy :: Dev"
 
 on: workflow_dispatch
 
@@ -14,4 +14,4 @@ jobs:
       test-code: false
       github-author: ${{ github.actor }}
     secrets:
-      aws-role-arn: ${{ secrets.DEPLOYMENT_ROLE_ARN }}
+      aws-role-arn: {% raw %} ${{ secrets.DEPLOYMENT_ROLE_ARN }} {% endraw %}
