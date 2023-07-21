@@ -1,0 +1,26 @@
+name: "Admin :: Deploy :: Int"
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - ".github/workflows/deploy-service.yml"
+      - ".github/workflows/admin--deploy--int.yml"
+      - "backend/services/admin/**"
+
+jobs:
+  deploy-integration:
+    uses: ./.github/workflows/deploy-service.yml
+    with:
+      github-environment: Integration
+      stage: int
+      service-name: "@shieldpay/admin"
+      service-path: backend/services/admin
+      lint-code: true
+      test-code: true
+      db: admin_test
+      notify-on-failure: true
+    secrets:
+      aws-role-arn: 
+      slack-webhook-url: 
