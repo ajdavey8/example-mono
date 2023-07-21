@@ -1,0 +1,14 @@
+name: "Admin :: Teardown :: Dev"
+
+on: workflow_dispatch
+
+jobs:
+  teardown-dev-preview:
+    uses: ./.github/workflows/teardown-service.yml
+    with:
+      github-environment: DevPreview
+      stage: $(echo  | awk '{print tolower($0)}')
+      service-name: "@shieldpay/admin"
+      service-path: backend/services/admin
+    secrets:
+      aws-role-arn: 
