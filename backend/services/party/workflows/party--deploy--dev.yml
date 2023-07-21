@@ -1,0 +1,17 @@
+name: "party :: Deploy :: Dev"
+
+on: workflow_dispatch
+
+jobs:
+  deploy-dev-preview:
+    uses: ./.github/workflows/deploy-service.yml
+    with:
+      github-environment: DevPreview
+      stage: $(echo  | awk '{print tolower($0)}')
+      service-name: "@shieldpay/party"
+      service-path: backend/services/party
+      lint-code: false
+      test-code: false
+      github-author: 
+    secrets:
+      aws-role-arn: 
