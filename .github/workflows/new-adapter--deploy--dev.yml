@@ -1,0 +1,17 @@
+name: "New-adapter :: Deploy :: Dev"
+
+on: workflow_dispatch
+
+jobs:
+  deploy-dev-preview:
+    uses: ./.github/workflows/deploy-service.yml
+    with:
+      github-environment: DevPreview
+      stage:   $(echo ${{ github.actor }} | awk '{print tolower($0)}') 
+      service-name: "@shieldpay/new-adapter"
+      service-path: backend/services/new-adapter
+      lint-code: false
+      test-code: false
+      github-author:  ${{ github.actor }} 
+    secrets:
+      aws-role-arn:  ${{ secrets.DEPLOYMENT_ROLE_ARN }} 

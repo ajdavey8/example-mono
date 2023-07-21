@@ -1,0 +1,25 @@
+name: "New-adapter :: Deploy :: Int"
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - ".github/workflows/deploy-service.yml"
+      - ".github/workflows/new-adapter--deploy--int.yml"
+      - "backend/services/new-adapter/**"
+
+jobs:
+  deploy-integration:
+    uses: ./.github/workflows/deploy-service.yml
+    with:
+      github-environment: Integration
+      stage: int
+      service-name: "@shieldpay/new-adapter"
+      service-path: backend/services/new-adapter
+      lint-code: true
+      test-code: true
+      notify-on-failure: true
+    secrets:
+      aws-role-arn:  ${{ secrets.DEPLOYMENT_ROLE_ARN }} 
+      slack-webhook-url:  ${{ secrets.SLACK_WEBHOOK_URL }} 
