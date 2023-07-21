@@ -1,0 +1,40 @@
+name: "Admin :: Deploy :: Staging To Prod"
+
+on: workflow_dispatch
+
+jobs:
+  deploy-staging:
+    uses: ./.github/workflows/deploy-service.yml
+    with:
+      github-environment: Staging
+      sentry-environment: "staging"
+      stage: staging
+      service-name: "@shieldpay/admin"
+      service-path: backend/services/admin
+      sourcemap-paths: ./dist
+      lint-code: true
+      test-code: true
+      db: admin_test
+    secrets:
+      aws-role-arn: 
+      sentry-project: 
+      sentry-token: 
+      sentry-org: 
+
+  deploy-production:
+    uses: ./.github/workflows/deploy-service.yml
+    needs: [deploy-staging]
+    with:
+      github-environment: Production
+      sentry-environment: "production"
+      stage: prod
+      service-name: "@shieldpay/admin"
+      service-path: backend/services/admin
+      sourcemap-paths: ./dist
+      lint-code: false
+      test-code: false
+    secrets:
+      aws-role-arn: 
+      sentry-project: 
+      sentry-token: 
+      sentry-org: 
