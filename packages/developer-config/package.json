@@ -33,6 +33,9 @@
     "./configs/.prettierrc.js": {
       "require": "./configs/.prettierrc.js"
     },
+    "./configs/prettier.frontend.config.js": {
+      "require": "./configs/prettier.frontend.config.js"
+    },
     "./configs/tsconfig.backend.json": {
       "require": "./configs/tsconfig.backend.json"
     }
