@@ -1,3 +1,10 @@
+## [1.1.0](https://github.com/andrew-org-test/example-mono/compare/developer-config-v1.0.5...developer-config-v1.1.0) (2023-07-27)
+
+
+### Features
+
+* add frontend prettier config ([6eba5e3](https://github.com/andrew-org-test/example-mono/commit/6eba5e33831d8aeeadfaa23d8cdb4586ae49b5b1))
+
 ## [1.0.5](https://github.com/andrew-org-test/example-mono/compare/developer-config-v1.0.4...developer-config-v1.0.5) (2023-07-11)
 
 
