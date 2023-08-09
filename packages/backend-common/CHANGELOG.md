@@ -1,19 +1,6 @@
 # [1.4.0](https://github.com/andrew-org-test/example-mono/compare/backend-common-v1.3.3...backend-common-v1.4.0) (2023-08-09)
 
-
-### Bug Fixes
-
-* build configs ([21051ea](https://github.com/andrew-org-test/example-mono/commit/21051eac7ce87c26c08ad8499a66ff987e905d6a))
-* build eslint rules ([63bb3bb](https://github.com/andrew-org-test/example-mono/commit/63bb3bbd1276f31533432b6f1c9fa6efcf10bf23))
-* jest config files ([5fa6ae4](https://github.com/andrew-org-test/example-mono/commit/5fa6ae4417b5170322734d389e515f6b4feffa0c))
-* remove main and update exports ([51eae57](https://github.com/andrew-org-test/example-mono/commit/51eae57afd0a983103f1fd5415b24d8f40d647f4))
-
-
-### Features
-
-* add console log to dev con ([90d8024](https://github.com/andrew-org-test/example-mono/commit/90d8024b68c127b9784ba4e412e2e980db01c274))
-* add frontend prettier config ([6eba5e3](https://github.com/andrew-org-test/example-mono/commit/6eba5e33831d8aeeadfaa23d8cdb4586ae49b5b1))
-* add prettier to api facade ([650fb7b](https://github.com/andrew-org-test/example-mono/commit/650fb7b1737eea34274945130591d25fad5b1c22))
+no actual changes
 
 ## [1.3.3](https://github.com/andrew-org-test/example-mono/compare/backend-common-v1.3.2...backend-common-v1.3.3) (2023-07-10)
 
