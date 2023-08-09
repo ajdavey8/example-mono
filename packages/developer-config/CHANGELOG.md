@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/andrew-org-test/example-mono/compare/developer-config-v1.2.0...developer-config-v1.2.1) (2023-08-09)
+
+
+### Bug Fixes
+
+* something to commit ([d4c72fe](https://github.com/andrew-org-test/example-mono/commit/d4c72fe8080bcefda4d9796399060334cc257284))
+
 ## [1.2.0](https://github.com/andrew-org-test/example-mono/compare/developer-config-v1.1.0...developer-config-v1.2.0) (2023-08-09)
 
 
