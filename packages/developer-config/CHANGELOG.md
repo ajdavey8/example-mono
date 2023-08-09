@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/andrew-org-test/example-mono/compare/developer-config-v1.2.1...developer-config-v1.2.2) (2023-08-09)
+
+
+### Bug Fixes
+
+* yarn ([e84246e](https://github.com/andrew-org-test/example-mono/commit/e84246eb0cd23a36363b61a24e076cb4a3f3655a))
+
 ## [1.2.1](https://github.com/andrew-org-test/example-mono/compare/developer-config-v1.2.0...developer-config-v1.2.1) (2023-08-09)
 
 
