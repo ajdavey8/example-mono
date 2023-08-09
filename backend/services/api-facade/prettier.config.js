@@ -1,0 +1,1 @@
+module.exports = require('@andrew-org-test/developer-config/configs/prettier.frontend.config.js')
