@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/andrew-org-test/example-mono/compare/developer-config-v1.2.2...developer-config-v1.2.3) (2023-08-09)
+
+
+### Bug Fixes
+
+* **backend-common:** remove non relevant changes in change log ([0accf10](https://github.com/andrew-org-test/example-mono/commit/0accf10f291d4b9a66c16633612ed1eb769d6a23))
+
 ## [1.2.2](https://github.com/andrew-org-test/example-mono/compare/developer-config-v1.2.1...developer-config-v1.2.2) (2023-08-09)
 
 
