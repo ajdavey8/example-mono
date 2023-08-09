@@ -5,3 +5,5 @@ A public API that sits infront of the Hertitage and Optimus platforms, allowing 
 This service implements the pattern described bellow: https://aws.amazon.com/blogs/architecture/unlocking-data-from-existing-systems-with-serverless-api-facade/
 
 need a change to get new commit
+
+something to commit
