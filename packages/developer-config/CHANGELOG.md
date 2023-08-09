@@ -1,3 +1,11 @@
+## [1.2.0](https://github.com/andrew-org-test/example-mono/compare/developer-config-v1.1.0...developer-config-v1.2.0) (2023-08-09)
+
+
+### Features
+
+* add console log to dev con ([90d8024](https://github.com/andrew-org-test/example-mono/commit/90d8024b68c127b9784ba4e412e2e980db01c274))
+* add prettier to api facade ([650fb7b](https://github.com/andrew-org-test/example-mono/commit/650fb7b1737eea34274945130591d25fad5b1c22))
+
 ## [1.1.0](https://github.com/andrew-org-test/example-mono/compare/developer-config-v1.0.5...developer-config-v1.1.0) (2023-07-27)
 
 
