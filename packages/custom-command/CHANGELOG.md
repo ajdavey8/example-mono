@@ -1,3 +1,11 @@
+## [1.1.1](https://github.com/andrew-org-test/example-mono/compare/custom-command-v1.1.0...custom-command-v1.1.1) (2023-08-20)
+
+
+### Bug Fixes
+
+* release trigger ([e3c2ea8](https://github.com/andrew-org-test/example-mono/commit/e3c2ea83a40b70d312910da59f69758d69e0ff8a))
+* trigger ([5f0a688](https://github.com/andrew-org-test/example-mono/commit/5f0a688f06a617fe0fe7b0bf65d17eb8fd0b98ec))
+
 # [1.1.0](https://github.com/andrew-org-test/example-mono/compare/custom-command-v1.0.0...custom-command-v1.1.0) (2023-08-20)
 
 
