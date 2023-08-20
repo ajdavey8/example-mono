@@ -1,3 +1,15 @@
+## [1.3.0](https://github.com/andrew-org-test/example-mono/compare/developer-config-v1.2.3...developer-config-v1.3.0) (2023-08-20)
+
+
+### Features
+
+* add new custom command package ([04add1d](https://github.com/andrew-org-test/example-mono/commit/04add1ddea83d73b74bff0785978266afdfaae9a))
+
+
+### Bug Fixes
+
+* trigger package ([23dc14d](https://github.com/andrew-org-test/example-mono/commit/23dc14d0ce9288d74f596f33ecaa126c2ffd6027))
+
 ## [1.2.3](https://github.com/andrew-org-test/example-mono/compare/developer-config-v1.2.2...developer-config-v1.2.3) (2023-08-09)
 
 
