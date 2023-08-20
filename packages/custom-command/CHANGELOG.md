@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/andrew-org-test/example-mono/compare/custom-command-v1.0.0...custom-command-v1.1.0) (2023-08-20)
+
+
+### Features
+
+* update package ([db94be4](https://github.com/andrew-org-test/example-mono/commit/db94be4d786c988850f50d85d5e231f546da6c16))
+
 # 1.0.0 (2023-08-20)
 
 
