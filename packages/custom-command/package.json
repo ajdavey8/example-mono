@@ -3,7 +3,7 @@
   "author": "Andrew",
   "version": "1.0.0",
   "license": "UNLICENSED",
-  "description": "Library for common backend logic, types, etc, used by all of the micro-services",
+  "description": "a change",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
   "type": "commonjs",
