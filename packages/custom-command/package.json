@@ -1,0 +1,61 @@
+{
+  "name": "@andrew-org-test/custom-command",
+  "author": "Andrew",
+  "version": "1.4.0",
+  "license": "UNLICENSED",
+  "description": "Library for common backend logic, types, etc, used by all of the micro-services",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrew-org-test/example-mono.git",
+    "directory": "packages/custom-command"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/",
+    "pkgRoot": "packages/custom-command/"
+  },
+  "bin": {
+    "run-checks": "./dist/src/index.js"
+  },
+  "files": [
+    "dist/src/**"
+  ],
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "scripts": {
+    "commit": "cz",
+    "lint": "echo \"No linting configured\"",
+    "lint:fix": "eslint . --fix",
+    "test": "jest --passWithNoTests",
+    "typecheck": "tsc --noEmit",
+    "release": "semantic-release --extends=./release.config.js"
+  },
+  "devDependencies": {
+    "@nx/js": "16.1.3",
+    "@semantic-release/changelog": "6.0.3",
+    "@semantic-release/git": "10.0.1",
+    "@types/node": "18.16.1",
+    "@typescript-eslint/eslint-plugin": "5.58.0",
+    "@typescript-eslint/parser": "5.58.0",
+    "commitizen": "4.3.0",
+    "cz-conventional-changelog": "3.3.0",
+    "jest": "29.5.0",
+    "nx": "16.1.3",
+    "prettier": "2.8.8",
+    "semantic-release": "21.0.2",
+    "semantic-release-yarn": "1.0.0",
+    "ts-jest": "29.0.5",
+    "ts-node": "10.9.1",
+    "typescript": "5.0.4"
+  }
+}

@@ -1,0 +1,16 @@
+{ 
+    "sourceRoot": "packages/custom-command/src",
+    "targets": {
+        "build": {
+        "executor": "@nx/js:tsc",
+        "options": {
+            "outputPath": "packages/custom-command/dist/",
+            "main": "src/index.ts",
+            "tsConfig": "packages/custom-command/tsconfig.lib.json",
+            "rootDir":"packages/custom-command/",
+            "assets": ["/*.md"]
+        }
+        }
+    },
+    "tags": ["package"]
+}
