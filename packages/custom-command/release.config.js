@@ -9,7 +9,6 @@ module.exports = {
       {
         releaseRules: [
           { type: "feat", scope: "custom-command", release: "minor" },
-          { type: "feat", release: false },
           { type: "fix", scope: "custom-command", release: "minor" },
           { type: "fix", release: false },
           { breaking: true,  scope: "custom-command", release: "major" },
