@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/andrew-org-test/example-mono/compare/developer-config-v1.4.0...developer-config-v1.4.1) (2023-08-20)
+
+
+### Bug Fixes
+
+* trigger ([5f0a688](https://github.com/andrew-org-test/example-mono/commit/5f0a688f06a617fe0fe7b0bf65d17eb8fd0b98ec))
+
 ## [1.4.0](https://github.com/andrew-org-test/example-mono/compare/developer-config-v1.3.0...developer-config-v1.4.0) (2023-08-20)
 
 
