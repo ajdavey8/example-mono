@@ -54,7 +54,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@andrew-org-test/custom-command@workspace:packages/custom-command":
+"@andrew-org-test/custom-command@1.0.0, @andrew-org-test/custom-command@workspace:packages/custom-command":
   version: 0.0.0-use.local
   resolution: "@andrew-org-test/custom-command@workspace:packages/custom-command"
   dependencies:
@@ -4728,6 +4728,7 @@ __metadata:
   resolution: "api-facade@workspace:backend/services/api-facade"
   dependencies:
     "@andrew-org-test/backend-common": 1.2.2
+    "@andrew-org-test/custom-command": 1.0.0
     "@andrew-org-test/developer-config": 1.1.0
     "@tsconfig/node18": ^2.0.0
     typescript: ^5.0.4
