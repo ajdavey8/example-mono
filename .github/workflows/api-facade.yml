@@ -32,8 +32,8 @@ jobs:
           yarn
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Run checks
+      - name: Load params
         run: |
-          yarn run-checks checking
+          yarn load-params checking
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
