@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/andrew-org-test/example-mono/compare/custom-command-v1.1.2...custom-command-v1.1.3) (2023-08-21)
+
+
+### Bug Fixes
+
+* try and deploy again ([59cb8c5](https://github.com/andrew-org-test/example-mono/commit/59cb8c59316680ede1391b3a923b8f11dab6ca84))
+
 ## [1.1.2](https://github.com/andrew-org-test/example-mono/compare/custom-command-v1.1.1...custom-command-v1.1.2) (2023-08-21)
 
 
