@@ -6,4 +6,4 @@ This service implements the pattern described bellow: https://aws.amazon.com/blo
 
 need a change to get new commit
 
-something to commitdfhdfghd
+something to commitdfhdfghdsdgfsdgdfds
