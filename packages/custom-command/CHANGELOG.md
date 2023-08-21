@@ -1,3 +1,16 @@
+# [1.4.0](https://github.com/andrew-org-test/example-mono/compare/custom-command-v1.3.0...custom-command-v1.4.0) (2023-08-21)
+
+
+### Bug Fixes
+
+* trigger 1 mil ([5c23150](https://github.com/andrew-org-test/example-mono/commit/5c231507f86f9f1d8211fa03798e24271749519d))
+* yarn ([8b91aa7](https://github.com/andrew-org-test/example-mono/commit/8b91aa741feb61353f9a54d476d34919d0587c35))
+
+
+### Features
+
+* please work ([67cfa63](https://github.com/andrew-org-test/example-mono/commit/67cfa63e0b30e739f1a0ebbcd808afeaaf75fcf6))
+
 # [1.3.0](https://github.com/andrew-org-test/example-mono/compare/custom-command-v1.2.0...custom-command-v1.3.0) (2023-08-21)
 
 
