@@ -54,16 +54,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@andrew-org-test/custom-command@npm:1.0.0":
-  version: 1.0.0
-  resolution: "@andrew-org-test/custom-command@npm:1.0.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40andrew-org-test%2Fcustom-command%2F1.0.0%2F763f8feae390d18dd10956fc0eaedf007a147a22"
-  bin:
-    run-checks: ./dist/src/index.js
-  checksum: f18509f13037e8d055ca1ff0e1c78d4bf8e8902a8f1a78f276f577edeb6c499219fdb743f93e955e3e2ba49a80643c38edbe281aa8b16fbe6403b9934f359412
-  languageName: node
-  linkType: hard
-
-"@andrew-org-test/custom-command@workspace:packages/custom-command":
+"@andrew-org-test/custom-command@1.1.1, @andrew-org-test/custom-command@workspace:packages/custom-command":
   version: 0.0.0-use.local
   resolution: "@andrew-org-test/custom-command@workspace:packages/custom-command"
   dependencies:
@@ -4737,7 +4728,7 @@ __metadata:
   resolution: "api-facade@workspace:backend/services/api-facade"
   dependencies:
     "@andrew-org-test/backend-common": 1.2.2
-    "@andrew-org-test/custom-command": 1.0.0
+    "@andrew-org-test/custom-command": 1.1.1
     "@andrew-org-test/developer-config": 1.1.0
     "@tsconfig/node18": ^2.0.0
     typescript: ^5.0.4
