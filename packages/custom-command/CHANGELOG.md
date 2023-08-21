@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/andrew-org-test/example-mono/compare/custom-command-v1.2.0...custom-command-v1.3.0) (2023-08-21)
+
+
+### Features
+
+* refine files packaged ([35b3b5f](https://github.com/andrew-org-test/example-mono/commit/35b3b5f552e785b6702b3c6bf6b7da0152d448b3))
+
 # [1.2.0](https://github.com/andrew-org-test/example-mono/compare/custom-command-v1.1.3...custom-command-v1.2.0) (2023-08-21)
 
 
