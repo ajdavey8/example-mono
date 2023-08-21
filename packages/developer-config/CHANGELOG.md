@@ -1,3 +1,17 @@
+## [1.6.0](https://github.com/andrew-org-test/example-mono/compare/developer-config-v1.5.0...developer-config-v1.6.0) (2023-08-21)
+
+
+### Features
+
+* please work ([67cfa63](https://github.com/andrew-org-test/example-mono/commit/67cfa63e0b30e739f1a0ebbcd808afeaaf75fcf6))
+* refine files packaged ([35b3b5f](https://github.com/andrew-org-test/example-mono/commit/35b3b5f552e785b6702b3c6bf6b7da0152d448b3))
+
+
+### Bug Fixes
+
+* trigger 1 mil ([5c23150](https://github.com/andrew-org-test/example-mono/commit/5c231507f86f9f1d8211fa03798e24271749519d))
+* yarn ([8b91aa7](https://github.com/andrew-org-test/example-mono/commit/8b91aa741feb61353f9a54d476d34919d0587c35))
+
 ## [1.5.0](https://github.com/andrew-org-test/example-mono/compare/developer-config-v1.4.2...developer-config-v1.5.0) (2023-08-21)
 
 
