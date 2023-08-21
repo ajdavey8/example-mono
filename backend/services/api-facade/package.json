@@ -8,6 +8,8 @@
   "devDependencies": {
     "@andrew-org-test/developer-config": "1.1.0",
     "@tsconfig/node18": "^2.0.0",
+    "@types/node": "20.5.1",
+    "ts-node": "10.9.1",
     "typescript": "^5.0.4"
   },
   "version": "3.0.0"

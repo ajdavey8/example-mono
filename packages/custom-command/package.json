@@ -17,11 +17,9 @@
     "pkgRoot": "packages/custom-command/"
   },
   "bin": {
-    "run-checks": "./dist/src/index.js"
+    "load-params": "./src/load-params.ts",
+    "run-checks": "./src/run-checks.ts"
   },
-  "files": [
-    "dist/src/**"
-  ],
   "release": {
     "branches": [
       "main"
@@ -35,6 +33,7 @@
   "scripts": {
     "commit": "cz",
     "lint": "echo \"No linting configured\"",
+    "build": "echo \"No build configured\"",
     "lint:fix": "eslint . --fix",
     "test": "jest --passWithNoTests",
     "typecheck": "tsc --noEmit",

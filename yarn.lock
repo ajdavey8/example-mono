@@ -75,7 +75,8 @@ __metadata:
     ts-node: 10.9.1
     typescript: 5.0.4
   bin:
-    run-checks: ./dist/src/index.js
+    load-params: ./src/load-params.ts
+    run-checks: ./src/run-checks.ts
   languageName: unknown
   linkType: soft
 
@@ -4097,6 +4098,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/node@npm:20.5.1":
+  version: 20.5.1
+  resolution: "@types/node@npm:20.5.1"
+  checksum: 3dbe611cd67afa987102c8558ee70f848949c5dcfee5f60abc073e55c0d7b048e391bf06bb1e0dc052cb7210ca97136ac496cbaf6e89123c989de6bd125fde82
+  languageName: node
+  linkType: hard
+
 "@types/normalize-package-data@npm:^2.4.0, @types/normalize-package-data@npm:^2.4.1":
   version: 2.4.1
   resolution: "@types/normalize-package-data@npm:2.4.1"
@@ -4731,6 +4739,8 @@ __metadata:
     "@andrew-org-test/custom-command": 1.1.1
     "@andrew-org-test/developer-config": 1.1.0
     "@tsconfig/node18": ^2.0.0
+    "@types/node": 20.5.1
+    ts-node: 10.9.1
     typescript: ^5.0.4
   languageName: unknown
   linkType: soft
