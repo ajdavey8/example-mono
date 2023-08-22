@@ -34,6 +34,6 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Run checks
         run: |
-          yarn run-checks checking
+          yarn tsc
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
