@@ -3,7 +3,7 @@
   "private": true,
   "dependencies": {
     "@andrew-org-test/backend-common": "1.2.2",
-    "@andrew-org-test/custom-command": "1.3.0"
+    "@andrew-org-test/custom-command": "1.5.0"
   },
   "devDependencies": {
     "@andrew-org-test/developer-config": "1.1.0",
