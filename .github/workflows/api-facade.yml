@@ -34,6 +34,6 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Run checks
         run: |
-          yarn @andrew-org-test/custom-command run-checks checking
+          yarn run-checks checking
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
