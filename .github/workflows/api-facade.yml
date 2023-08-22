@@ -32,8 +32,8 @@ jobs:
           yarn workspaces focus api-facade
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Load params
+      - name: Run checks
         run: |
-          yarn load-params checking
+          yarn @andrew-org-test/custom-command run-checks checking
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
