@@ -6693,6 +6693,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "example-mono@workspace:."
   dependencies:
+    "@andrew-org-test/custom-command": 1.5.0
     "@nrwl/cli": 15.9.3
     "@nx/js": 16.0.3
     "@semantic-release/changelog": 6.0.3
