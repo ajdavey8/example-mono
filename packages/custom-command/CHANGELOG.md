@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/andrew-org-test/example-mono/compare/custom-command-v1.4.1...custom-command-v1.5.0) (2023-08-22)
+
+
+### Features
+
+* trigger ([be561f3](https://github.com/andrew-org-test/example-mono/commit/be561f3b63cf0b3a7685c900a1db291c79d3f976))
+
 ## [1.4.1](https://github.com/andrew-org-test/example-mono/compare/custom-command-v1.4.0...custom-command-v1.4.1) (2023-08-22)
 
 
