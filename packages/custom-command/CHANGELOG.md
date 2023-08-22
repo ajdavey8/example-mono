@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/andrew-org-test/example-mono/compare/custom-command-v1.4.0...custom-command-v1.4.1) (2023-08-22)
+
+
+### Bug Fixes
+
+* try another change ([8509e4e](https://github.com/andrew-org-test/example-mono/commit/8509e4e2d50481e9b195949fdc3e67d54b5bd02d))
+
 # [1.4.0](https://github.com/andrew-org-test/example-mono/compare/custom-command-v1.3.0...custom-command-v1.4.0) (2023-08-22)
 
 
