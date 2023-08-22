@@ -1,3 +1,15 @@
+## [1.7.0](https://github.com/andrew-org-test/example-mono/compare/developer-config-v1.6.0...developer-config-v1.7.0) (2023-08-22)
+
+
+### Features
+
+* use js and node ([a52b6e6](https://github.com/andrew-org-test/example-mono/commit/a52b6e60f47f80b92e895c8c61e2a31b8c66137d))
+
+
+### Bug Fixes
+
+* release ([8e03f67](https://github.com/andrew-org-test/example-mono/commit/8e03f673f71283afabc3eaa72eb479301548de90))
+
 ## [1.6.0](https://github.com/andrew-org-test/example-mono/compare/developer-config-v1.5.0...developer-config-v1.6.0) (2023-08-21)
 
 
