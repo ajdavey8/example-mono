@@ -4,8 +4,8 @@
   "version": "1.3.0",
   "license": "UNLICENSED",
   "description": "another change",
-  "main": "dist/src/index.js",
-  "types": "dist/src/index.d.ts",
+  "main": "dist/bin/run-checks.js",
+  "types": "dist/bin/run-checks.d.ts",
   "type": "commonjs",
   "repository": {
     "type": "git",
@@ -17,12 +17,9 @@
     "pkgRoot": "packages/custom-command/"
   },
   "bin": {
-    "load-params": "./src/load-params.ts",
-    "run-checks": "./src/run-checks.ts"
+    "load-params": "dist/bin/load-params.js",
+    "run-checks": "dist/bin//run-checks.js"
   },
-  "files": [
-    "src"
-  ],
   "release": {
     "branches": [
       "main"

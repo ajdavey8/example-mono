@@ -2,7 +2,7 @@
   "compilerOptions": {
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
-    "baseUrl": "src",
+    "baseUrl": "bin",
     "composite": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
@@ -13,11 +13,11 @@
     "noUnusedParameters": true,
     "outDir": "dist",
     "resolveJsonModule": true,
-    "rootDir": "src",
+    "rootDir": "bin",
     "skipLibCheck": true,
     "sourceMap": true,
     "strict": true,
     "target": "es2017"
   },
-  "include": ["src/**/*.ts"]
+  "include": ["bin/**/*.ts"]
 }
