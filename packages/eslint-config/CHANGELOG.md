@@ -1,3 +1,14 @@
+## 1.0.0 (2023-08-23)
+
+
+### ⚠ BREAKING CHANGES
+
+* **add the package to release:** first
+
+### feat
+
+* **add the package to release:** test release ([6ee6bad](https://github.com/andrew-org-test/example-mono/commit/6ee6bad14bfabd9b82996dcc4250206438e1976a))
+
 ## 1.0.0 (2023-08-18)
 
 ### Features
