@@ -1,0 +1,12 @@
+site_name: eslint-config package
+
+nav:
+  - Overview: ./index.md
+
+markdown_extensions:
+  - pymdownx.magiclink
+  - pymdownx.snippets:
+      check_paths: true
+
+plugins:
+  - techdocs-core

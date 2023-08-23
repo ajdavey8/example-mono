@@ -1,0 +1,16 @@
+{
+  "sourceRoot": "packages/eslint-config/src/",
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "options": {
+        "outputPath": "packages/eslint-config/dist/",
+        "main": "dist/src/index.ts",
+        "tsConfig": "packages/eslint-config/tsconfig.lib.json",
+        "rootDir": "packages/eslint-config/",
+        "assets": ["/*.md"]
+      }
+    }
+  },
+  "tags": ["package"]
+}
