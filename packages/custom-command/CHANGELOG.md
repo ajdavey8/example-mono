@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/andrew-org-test/example-mono/compare/custom-command-v1.5.0...custom-command-v1.6.0) (2023-08-23)
+
+
+### Features
+
+* add eslint-config package ([1aaea80](https://github.com/andrew-org-test/example-mono/commit/1aaea80debeaa45d4e7b34dbe25d1d9f9239dec8))
+
 # [1.5.0](https://github.com/andrew-org-test/example-mono/compare/custom-command-v1.4.1...custom-command-v1.5.0) (2023-08-22)
 
 
