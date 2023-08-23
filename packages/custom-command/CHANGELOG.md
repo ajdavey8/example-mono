@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/andrew-org-test/example-mono/compare/custom-command-v1.6.0...custom-command-v1.6.1) (2023-08-23)
+
+
+### Bug Fixes
+
+* the thing ([1f32d99](https://github.com/andrew-org-test/example-mono/commit/1f32d992786d53940b61ef6c6738b7f414761429))
+
 # [1.5.0](https://github.com/andrew-org-test/example-mono/compare/custom-command-v1.4.1...custom-command-v1.5.0) (2023-08-22)
 
 
